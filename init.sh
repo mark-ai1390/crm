@@ -1,29 +1,22 @@
 #!/usr/bin/env bash
-
 set -euo pipefail
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cd "$ROOT_DIR"
+CRM_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$CRM_ROOT"
+command -v node >/dev/null || { echo "Нужен Node.js >=22."; exit 1; }
+node -e "if (+process.versions.node.split('.')[0] < 22) process.exit(1)" || { echo "Нужен Node.js >=22."; exit 1; }
 
-# Replace these commands with the correct commands for your repository.
-INSTALL_CMD=(npm install)
-VERIFY_CMD=(npm test)
-START_CMD=(npm run dev)
+echo "Проверка проекта 4sales CRM"
+npm run check
+npm test
 
-echo "==> Working directory: $PWD"
-echo "==> Syncing dependencies"
-"${INSTALL_CMD[@]}"
-
-echo "==> Running baseline verification"
-"${VERIFY_CMD[@]}"
-
-echo "==> Startup command"
-printf '    %q' "${START_CMD[@]}"
-printf '\n'
-
-if [ "${RUN_START_COMMAND:-0}" = "1" ]; then
-  echo "==> Starting the app"
-  exec "${START_CMD[@]}"
+if [ -f public/index.html ]; then
+  npm run build
+else
+  echo "Настройка готова. Код главной страницы ещё не создан; макеты и план подготовлены."
 fi
 
-echo "Set RUN_START_COMMAND=1 if you want init.sh to launch the app directly."
+if [ "${RUN_START_COMMAND:-0}" = "1" ]; then
+  exec npm run dev
+fi
+echo "Запуск: npm run dev (http://localhost:5173)"

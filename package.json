@@ -1,0 +1,17 @@
+{
+  "name": "four-sales-crm",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "4sales CRM — демонстрационный проект Марка Сангинова по Figma CRMED",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs public",
+    "preview": "node scripts/serve.mjs dist",
+    "check": "node scripts/check.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs"
+  }
+}
