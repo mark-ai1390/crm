@@ -22,7 +22,7 @@ export function initSidebar() {
     document.body.classList.toggle('is-compact',state.compact);
     collapse.setAttribute('aria-expanded',String(!state.compact));
     collapse.setAttribute('aria-label',state.compact?'Развернуть меню':'Свернуть меню');
-    for(const button of triggers){const open=state[button.dataset.group+'Open'];button.setAttribute('aria-expanded',String(open));document.getElementById(button.getAttribute('aria-controls')).hidden=!open;}
+    for(const button of triggers){const open=state[button.dataset.group+'Open']&&!(state.compact&&!media.matches);button.setAttribute('aria-expanded',String(open));document.getElementById(button.getAttribute('aria-controls')).hidden=!open;}
     sidebar.inert=media.matches&&!mobileOpen;
     content.inert=media.matches&&mobileOpen;
     document.body.classList.toggle('sidebar-open',media.matches&&mobileOpen);
