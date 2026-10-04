@@ -36,3 +36,20 @@ for (const file of files.filter(f => ['.html','.css'].includes(extname(f)))) {
 }
 const exists = files.some(f => f.endsWith('/index.html'));
 console.log(exists ? 'Проверки синтаксиса, структуры и локальных ресурсов пройдены.' : 'Настройка проверена. Код сайта ещё не создан.');
+
+
+if (exists) {
+  const manifest=JSON.parse(await readFile(resolve(root,'public/assets/figma/manifest.json'),'utf8'));
+  const sources=(await Promise.all(files.filter(f=>['.html','.js'].includes(extname(f))).map(f=>readFile(f,'utf8')))).join('\n');
+  for (const asset of manifest.assets) {
+    const svg=await readFile(resolve(root,'public/assets/figma',asset.file),'utf8');
+    assert(svg.startsWith('<svg'), 'Некорректный SVG: '+asset.file);
+    const width=Number(svg.match(/<svg[^>]*\bwidth="([^"]+)"/)?.[1]);
+    const height=Number(svg.match(/<svg[^>]*\bheight="([^"]+)"/)?.[1]);
+    assert(width>0&&height>0, 'Нет размеров SVG: '+asset.file);
+    assert.equal(width,asset.svg_width,'Ширина SVG изменилась: '+asset.file);
+    assert.equal(height,asset.svg_height,'Высота SVG изменилась: '+asset.file);
+    assert(sources.includes(asset.file), 'Нет использования ресурса: '+asset.file);
+  }
+  console.log('Все 40 видимых SVG Figma локальны, непусты и связаны с разметкой или данными графика.');
+}

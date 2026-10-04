@@ -7,4 +7,6 @@ catch { throw new Error('Код сайта ещё не создан. Следу�
 await rm(resolve(root, 'dist'), { recursive: true, force: true });
 await mkdir(resolve(root, 'dist'), { recursive: true });
 await cp(resolve(root, 'public'), resolve(root, 'dist'), { recursive: true });
+await cp(resolve(root, 'dist/index.html'), resolve(root, 'dist/dashboard.html'));
 console.log('Сайт собран в dist/.');
+

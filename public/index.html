@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b152b">
+  <meta name="description" content="4sales — демонстрационная CRM Марка Сангинова: продажи, выручка, каналы и результаты команды.">
+  <title>Дашборд — 4sales CRM</title>
+  <link rel="icon" href="assets/figma/icon-chart-pie-slice.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/styles.css"><script type="module" src="assets/js/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Перейти к содержимому</a>
+<button class="mobile-backdrop" type="button" aria-label="Закрыть меню" tabindex="-1" hidden></button>
+<aside class="sidebar" id="sidebar" aria-label="Главная навигация" data-node-id="1478:35961">
+  <a class="brand" href="./" aria-label="4sales — дашборд"><img src="assets/figma/logo.svg" alt="4sales" width="200" height="34"></a>
+  <button class="sidebar-toggle icon-button" type="button" aria-label="Свернуть меню" aria-controls="sidebar" aria-expanded="true"><img src="assets/figma/icon-arrows-in-simple.svg" alt=""></button>
+  <button class="mobile-sidebar-close icon-button" type="button" aria-label="Закрыть меню"><span aria-hidden="true">×</span></button>
+  <nav class="sidebar-nav" aria-label="Разделы CRM">
+    <section class="nav-section" aria-labelledby="pages-label">
+      <div class="nav-section-heading"><h2 id="pages-label">Страницы</h2><button class="nav-add" type="button" data-shortcuts="pages" aria-label="Страницы: быстрый доступ" aria-haspopup="dialog"><img src="assets/figma/icon-plus-circle.svg" alt=""></button></div>
+      <div class="nav-items">
+        <a class="nav-row current" href="./" aria-current="page" title="Дашборд"><img src="assets/figma/icon-chart-pie-slice.svg" alt=""><span class="nav-label">Дашборд</span></a>
+        <button class="nav-row" type="button" title="Аналитика" data-module="analytics"><img src="assets/figma/icon-chart-line.svg" alt=""><span class="nav-label">Аналитика</span><span class="nav-badge danger" aria-label="12 отчётов">12</span></button>
+        <div class="nav-branch" data-branch="sales"><button class="nav-row branch-trigger" type="button" data-group="sales" aria-expanded="false" aria-controls="sales-submenu" title="Продажи"><img src="assets/figma/icon-cube.svg" alt=""><span class="nav-label">Продажи</span><img src="assets/figma/icon-caret-down.svg" alt="" class="nav-caret"></button>
+          <div class="submenu" id="sales-submenu" hidden><button class="nav-subrow" type="button" data-module="orders">Заказы</button><button class="nav-subrow" type="button" data-module="clients">Клиенты</button><button class="nav-subrow" type="button" data-module="communications">Коммуникации</button>
+            <div class="nav-branch" data-branch="inventory"><button class="nav-subrow branch-trigger" type="button" data-group="inventory" aria-expanded="false" aria-controls="inventory-submenu"><span>Товары и склады</span><img src="assets/figma/icon-caret-down.svg" alt="" class="nav-caret"></button>
+              <div class="submenu nested" id="inventory-submenu" hidden><button class="nav-subrow" type="button" data-module="products">Товары</button><button class="nav-subrow" type="button" data-module="groups">Группы товаров</button><button class="nav-subrow" type="button" data-module="brands">Бренды</button><button class="nav-subrow" type="button" data-module="warehouses">Склады</button><button class="nav-subrow" type="button" data-module="write-offs">Списания</button><button class="nav-subrow" type="button" data-module="counterparties">Контрагенты</button><button class="nav-subrow" type="button" data-module="receipts">Оприходования</button></div>
+            </div><button class="nav-subrow" type="button" data-module="managers">Менеджеры</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="nav-section" aria-labelledby="apps-label"><div class="nav-section-heading"><h2 id="apps-label">Приложения</h2><button class="nav-add" type="button" data-shortcuts="apps" aria-label="Приложения: быстрый доступ" aria-haspopup="dialog"><img src="assets/figma/icon-plus-circle.svg" alt=""></button></div><div class="nav-items">
+      <button class="nav-row" type="button" title="Чаты" data-module="chats"><img src="assets/figma/icon-chat-circle-dots.svg" alt=""><span class="nav-label">Чаты</span><span class="nav-badge light" aria-label="2 чата">2</span></button>
+      <button class="nav-row" type="button" title="Календарь" data-module="calendar"><img src="assets/figma/icon-calendar-blank.svg" alt=""><span class="nav-label">Календарь</span></button><button class="nav-row" type="button" title="Задачи" data-module="tasks"><img src="assets/figma/icon-target.svg" alt=""><span class="nav-label">Задачи</span></button>
+    </div></section>
+    <section class="nav-section" aria-labelledby="settings-label"><div class="nav-section-heading"><h2 id="settings-label">Настройки</h2><button class="nav-add" type="button" data-shortcuts="settings" aria-label="Настройки: быстрый доступ" aria-haspopup="dialog"><img src="assets/figma/icon-plus-circle.svg" alt=""></button></div><button class="nav-row" type="button" title="Настройки" data-module="settings"><img src="assets/figma/icon-gear-six.svg" alt=""><span class="nav-label">Настройки</span></button></section>
+  </nav>
+  <button class="profile-button" type="button" data-panel="profile" title="Профиль Марка Сангинова" aria-haspopup="dialog"><span class="avatar avatar-small" data-initials="МС" role="img" aria-label="Марк Сангинов"><span class="presence"></span></span><span class="profile-name">Сангинов Марк</span><img src="assets/figma/icon-caret-up.svg" alt="" class="profile-caret"></button>
+</aside>
+<div class="app-content" id="app-content">
+  <header class="page-header" data-node-id="1478:36036">
+    <div class="header-main"><button class="mobile-menu icon-button" type="button" aria-label="Открыть меню" aria-controls="sidebar" aria-expanded="false"><span class="hamburger" aria-hidden="true"></span></button><h1>Дашборд</h1>
+      <div class="header-actions"><button class="icon-button notification-button" type="button" data-panel="notifications" aria-label="Уведомления" aria-haspopup="dialog"><img src="assets/figma/icon-bell.svg" alt=""></button><button class="button button-secondary" id="export-summary" type="button">Экспорт сводок</button><button class="button button-primary" type="button" data-panel="insights" aria-label="AI — разбор демонстрационных показателей" aria-haspopup="dialog"><img src="assets/figma/icon-start.svg" alt=""><span>AI</span><img src="assets/figma/icon-end.svg" alt=""></button></div>
+    </div>
+    <div class="sync-line"><p>Последняя синхронизация: <strong>21 мая 2026 20:42</strong></p><span class="demo-label" title="Показатели и операции демонстрационные">Демо-данные</span></div>
+  </header>
+  <main id="main-content" class="dashboard" tabindex="-1" data-node-id="1478:36045">
+    <div class="dashboard-main">
+      <section class="kpi-grid" aria-label="Основные показатели"><article class="kpi-card kpi-work"><div class="kpi-label"><span class="kpi-icon"><img src="assets/figma/icon-handshake.svg" alt=""></span><h2>В работе</h2></div><p class="kpi-value" id="work-value">12</p><div class="kpi-comparison"><span class="change" id="work-change">+9%</span><span>К прошлому месяцу</span></div></article><article class="kpi-card kpi-month"><div class="kpi-label"><span class="kpi-icon"><img src="assets/figma/icon-handbag-simple.svg" alt=""></span><h2>Сумма за месяц</h2></div><p class="kpi-value" id="month-value">1 248 900 ₽</p><div class="kpi-comparison"><span class="change" id="month-change">+10%</span><span>К прошлому месяцу</span></div><span class="sr-only">Май 2026 по 21 мая включительно.</span></article><article class="kpi-card kpi-day"><div class="kpi-label"><span class="kpi-icon"><img src="assets/figma/frame.svg" alt=""></span><h2>Сумма за день</h2></div><p class="kpi-value" id="day-value">115 605 ₽</p><div class="kpi-comparison"><span class="change negative" id="day-change">−10%</span><span>К прошлому дню</span></div></article></section>
+      <section class="panel revenue-card" aria-labelledby="revenue-title" data-node-id="1478:36052">
+        <div class="revenue-header"><div><h2 id="revenue-title">Динамика выручки</h2><p class="revenue-value" id="revenue-value">13 000 ₽</p><span class="sr-only" id="revenue-description">Выручка за 17:00, 21 мая 2026.</span></div>
+          <div class="period-control" role="group" aria-label="Период выручки"><button type="button" data-period="today" aria-pressed="true">Сегодня</button><button type="button" data-period="week" aria-pressed="false">Неделя</button><button type="button" data-period="month" aria-pressed="false">Месяц</button><button type="button" data-period="custom" aria-pressed="false" class="custom-period" aria-haspopup="dialog"><img src="assets/figma/icon-calendar-blank1.svg" alt=""><span>Выбрать период</span></button></div>
+        </div>
+        <div class="bar-viewport" tabindex="0" aria-label="График выручки: часы с 09:00 до 20:00. Стрелки переключают значения."><div class="bar-chart"><div class="bar-grid" id="revenue-bars" role="group" aria-label="Значения выручки"></div></div></div>
+      </section>
+      <section class="panel channels-card" aria-labelledby="channels-title" data-node-id="1478:36099">
+        <h2 id="channels-title">Эффективность каналов</h2><div class="table-description"><p>По выручке, объёму и конверсии</p><p><span class="table-period">Май</span> · <span id="channel-summary">4 канала / 342 заказа</span></p></div>
+        <div class="table-viewport" role="region" tabindex="0" aria-label="Эффективность каналов за май 2026, таблица с прокруткой"><table class="channel-table"><caption class="sr-only">Май 2026 по 21 мая включительно. Выручка и средний чек в рублях.</caption><thead><tr><th scope="col">Канал</th><th scope="col">Выручка</th><th scope="col">Заказы</th><th scope="col">Средний чек</th><th scope="col">Конверсия</th><th scope="col">Статус</th></tr></thead><tbody id="channel-rows"></tbody></table></div>
+      </section>
+    </div>
+    <div class="dashboard-summary">
+      <section class="panel sales-plan" aria-labelledby="plan-title" data-node-id="1478:36209"><h2 id="plan-title" title="Дневной план на 21 мая 2026">Выполнение плана продаж</h2><div class="manager-chart" role="img" aria-label="Дневной план 40 тысяч рублей: Марк — 100%, Иван — 39%, Григорий — 58%, Александр — 77%."><div class="manager-chart-rows"><img src="assets/figma/lines.svg" alt="" class="manager-grid"><div class="manager-name">Марк</div><div class="manager-track" title="Марк: 40 000 ₽, 100% дневного плана"><span class="manager-fill leader" style="--progress:100%"></span></div><div class="manager-name">Иван</div><div class="manager-track" title="Иван: 15 628 ₽, 39% дневного плана"><span class="manager-fill" style="--progress:39.07%"></span></div><div class="manager-name">Григорий</div><div class="manager-track" title="Григорий: 23 169 ₽, 58% дневного плана"><span class="manager-fill" style="--progress:57.92%"></span></div><div class="manager-name">Александр</div><div class="manager-track" title="Александр: 30 744 ₽, 77% дневного плана"><span class="manager-fill" style="--progress:76.86%"></span></div></div><div class="manager-axis"><span>10 тыс</span><span>20 тыс</span><span>30 тыс</span><strong>40 тыс</strong></div></div></section>
+      <section class="panel top-seller" aria-label="Лидер продаж" data-node-id="1478:36212"><span class="crown"><img src="assets/figma/icon-crown-simple.svg" alt=""></span><div class="seller-text"><h2>Топ продажи</h2><p>Марк Сангинов</p></div><span class="avatar" data-initials="МС" role="img" aria-label="Марк Сангинов"><span class="presence"></span></span></section>
+      <section class="panel monthly-orders" aria-labelledby="orders-title" data-node-id="1478:36221">
+        <div class="monthly-header"><div class="monthly-heading"><h2 id="orders-title">Заказы за месяц</h2><span class="change filled" id="orders-change" title="По сравнению с мартом 2025">+10%</span></div><label class="month-select"><span class="sr-only">Месяц заказов, 2026 год</span><select id="orders-month"><option value="0">Январь</option><option value="1">Февраль</option><option value="2" selected>Март</option><option value="3">Апрель</option><option value="4">Май</option></select><img src="assets/figma/icon-caret-down1.svg" alt=""></label></div>
+        <div class="trend-viewport" id="trend-viewport"><div class="trend-art" id="trend-art">
+          <div class="trend-reference" id="trend-reference" aria-hidden="true"><img src="assets/figma/lines1.svg" alt="" class="trend-grid"><img src="assets/figma/graph.svg" alt="" class="trend-actual"><img src="assets/figma/graph-copy.svg" alt="" class="trend-forecast"><div class="trend-pin"><span>128</span><i></i><div><img src="assets/figma/pin.svg" alt=""></div></div></div><div class="trend-dynamic" id="trend-dynamic" hidden></div>
+          <div class="orders-total"><p id="orders-total-label">Всего за март:</p><strong id="orders-total">128 шт</strong></div><p class="forecast-note" id="forecast-note">Пунктир — прогноз<br><span>на 31 марта</span></p><div class="trend-months" id="trend-months"><span>Янв</span><span>Фев</span><span class="selected">Мар</span><span>Апр</span><span>Май</span></div>
+        </div></div>
+        <p class="sr-only" id="trend-description">Январь — 180 заказов, февраль — 141, март — 128. Апрель — прогноз 246, май — прогноз 156. Прогноз демонстрационный, на 31 марта.</p>
+      </section>
+      <section class="panel orders-channels" aria-labelledby="orders-channels-title" data-node-id="1478:36263">
+        <div class="donut-heading"><h2 id="orders-channels-title">Заказы по каналам</h2><span id="donut-month">Март</span></div>
+        <div class="donut-content"><div class="donut" id="orders-donut" role="img" aria-label="Март: 128 заказов. Сайты — 42%, маркетплейсы — 31%, чаты — 18%, офлайн — 9%."><img id="donut-reference" src="assets/figma/slot.svg" alt=""><div class="donut-dynamic" id="donut-dynamic" hidden></div><strong>100%</strong></div><ul class="donut-legend" id="donut-legend"><li><img src="assets/figma/label-dot.svg" alt=""><span>Сайты</span><span data-share="0">42%</span></li><li><img src="assets/figma/label-dot1.svg" alt=""><span>Маркетплейсы</span><span data-share="1">31%</span></li><li><img src="assets/figma/label-dot2.svg" alt=""><span>Чаты</span><span data-share="2">18%</span></li><li><img src="assets/figma/label-dot3.svg" alt=""><span>Офлайн</span><span data-share="3">9%</span></li></ul></div>
+      </section>
+    </div>
+  </main>
+</div>
+<dialog class="app-dialog" id="app-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><h2 id="dialog-title"></h2><button class="dialog-close icon-button" type="button" aria-label="Закрыть"><span aria-hidden="true">×</span></button></div><div class="dialog-body" id="dialog-body"></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<noscript><div class="no-script">Для интерактивного дашборда включите JavaScript. Данные и операции этого проекта демонстрационные.</div></noscript>
+</body></html>

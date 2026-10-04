@@ -20,3 +20,4 @@ if [ "${RUN_START_COMMAND:-0}" = "1" ]; then
   exec npm run dev
 fi
 echo "Запуск: npm run dev (http://localhost:5173)"
+

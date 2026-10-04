@@ -7,7 +7,8 @@ const mime = { '.html':'text/html; charset=utf-8', '.css':'text/css; charset=utf
 createServer(async (req, res) => {
   try {
     const url = new URL(req.url, 'http://localhost');
-    const path = resolve(root, '.' + decodeURIComponent(url.pathname));
+    const requested = url.pathname === '/dashboard.html' ? '/index.html' : url.pathname;
+    const path = resolve(root, '.' + decodeURIComponent(requested));
     if (path !== root && !path.startsWith(root + sep)) { res.writeHead(403); res.end(); return; }
     const info = await stat(path);
     const file = info.isDirectory() ? resolve(path, 'index.html') : path;
@@ -16,3 +17,4 @@ createServer(async (req, res) => {
     res.end(bytes);
   } catch { res.writeHead(404, { 'content-type':'text/plain; charset=utf-8' }); res.end('Страница не найдена'); }
 }).listen(port, '0.0.0.0', () => console.log('4sales CRM: http://localhost:' + port));
+

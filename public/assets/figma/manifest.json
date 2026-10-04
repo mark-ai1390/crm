@@ -1,0 +1,342 @@
+{
+  "file_key": "ufCGdzahHmwbLQWYjeAzNp",
+  "screen_node": "1478:35960",
+  "source": "Исходные SVG экспортированы через Figma Plugin API без изменений; временные URL ресурсов недоступны из среды.",
+  "assets": [
+    {
+      "file": "lines.svg",
+      "node_id": "1466:31958",
+      "node_width": 276.0008850097656,
+      "node_height": 119.22265625,
+      "svg_width": 277,
+      "svg_height": 121
+    },
+    {
+      "file": "frame.svg",
+      "node_id": "1478:35732",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-handshake.svg",
+      "node_id": "1478:35712",
+      "node_width": 20.000001907348633,
+      "node_height": 20.000001907348633,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-caret-up.svg",
+      "node_id": "784:34934",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-plus-circle.svg",
+      "node_id": "1478:35967",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-chart-pie-slice.svg",
+      "node_id": "1478:35971",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-chart-line.svg",
+      "node_id": "1478:35978",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-cube.svg",
+      "node_id": "1478:35986",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-caret-down.svg",
+      "node_id": "1478:35990",
+      "node_width": 15.999999046325684,
+      "node_height": 15.999999046325684,
+      "svg_width": 16,
+      "svg_height": 16
+    },
+    {
+      "file": "icon-chat-circle-dots.svg",
+      "node_id": "1478:35999",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-calendar-blank.svg",
+      "node_id": "1478:36007",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-target.svg",
+      "node_id": "1478:36015",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-gear-six.svg",
+      "node_id": "1478:36028",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-bell.svg",
+      "node_id": "I1478:36039;148:13379",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-start.svg",
+      "node_id": "I1478:36041;88:15773",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-end.svg",
+      "node_id": "I1478:36041;88:15775",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-handbag-simple.svg",
+      "node_id": "I1478:36050;347:207177",
+      "node_width": 20.000001907348633,
+      "node_height": 20.000001907348633,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "icon-calendar-blank1.svg",
+      "node_id": "I1478:36057;1279:16894;2:30686",
+      "node_width": 16,
+      "node_height": 16,
+      "svg_width": 16,
+      "svg_height": 16
+    },
+    {
+      "file": "shape.svg",
+      "node_id": "1478:36061",
+      "node_width": 39.5,
+      "node_height": 125.99999237060547,
+      "svg_width": 39,
+      "svg_height": 126
+    },
+    {
+      "file": "shape1.svg",
+      "node_id": "1478:36064",
+      "node_width": 39.5,
+      "node_height": 78.4000015258789,
+      "svg_width": 39,
+      "svg_height": 79
+    },
+    {
+      "file": "shape2.svg",
+      "node_id": "1478:36067",
+      "node_width": 39.5,
+      "node_height": 145.60000610351562,
+      "svg_width": 39,
+      "svg_height": 146
+    },
+    {
+      "file": "shape3.svg",
+      "node_id": "1478:36073",
+      "node_width": 39.5,
+      "node_height": 117.59999084472656,
+      "svg_width": 39,
+      "svg_height": 118
+    },
+    {
+      "file": "shape4.svg",
+      "node_id": "1478:36076",
+      "node_width": 39.5,
+      "node_height": 86.80000305175781,
+      "svg_width": 39,
+      "svg_height": 87
+    },
+    {
+      "file": "shape5.svg",
+      "node_id": "1478:36079",
+      "node_width": 39.5,
+      "node_height": 137.1999969482422,
+      "svg_width": 39,
+      "svg_height": 138
+    },
+    {
+      "file": "shape6.svg",
+      "node_id": "1478:36087",
+      "node_width": 39.5,
+      "node_height": 156.8000030517578,
+      "svg_width": 39,
+      "svg_height": 157
+    },
+    {
+      "file": "shape7.svg",
+      "node_id": "1478:36091",
+      "node_width": 39.5,
+      "node_height": 106.4000015258789,
+      "svg_width": 39,
+      "svg_height": 107
+    },
+    {
+      "file": "shape8.svg",
+      "node_id": "1478:36094",
+      "node_width": 39.5,
+      "node_height": 156.8000030517578,
+      "svg_width": 40,
+      "svg_height": 157
+    },
+    {
+      "file": "shape9.svg",
+      "node_id": "1478:36097",
+      "node_width": 39.5,
+      "node_height": 78.4000015258789,
+      "svg_width": 40,
+      "svg_height": 79
+    },
+    {
+      "file": "icon-crown-simple.svg",
+      "node_id": "1478:36216",
+      "node_width": 24,
+      "node_height": 24,
+      "svg_width": 24,
+      "svg_height": 24
+    },
+    {
+      "file": "icon-caret-down1.svg",
+      "node_id": "I1478:36227;1312:22161",
+      "node_width": 20,
+      "node_height": 20,
+      "svg_width": 20,
+      "svg_height": 20
+    },
+    {
+      "file": "lines1.svg",
+      "node_id": "1478:36229",
+      "node_width": 398.89501953125,
+      "node_height": 219,
+      "svg_width": 400,
+      "svg_height": 220
+    },
+    {
+      "file": "graph.svg",
+      "node_id": "1478:36237",
+      "node_width": 198.89503479003906,
+      "node_height": 259,
+      "svg_width": 199,
+      "svg_height": 259
+    },
+    {
+      "file": "graph-copy.svg",
+      "node_id": "1478:36242",
+      "node_width": 198.89503479003906,
+      "node_height": 259,
+      "svg_width": 199,
+      "svg_height": 259
+    },
+    {
+      "file": "pin.svg",
+      "node_id": "1478:36250",
+      "node_width": 18,
+      "node_height": 18,
+      "svg_width": 30,
+      "svg_height": 30
+    },
+    {
+      "file": "slot.svg",
+      "node_id": "I1478:36271;969:33310",
+      "node_width": 119.99999237060547,
+      "node_height": 119.99999237060547,
+      "svg_width": 120,
+      "svg_height": 120
+    },
+    {
+      "file": "label-dot.svg",
+      "node_id": "1478:36274",
+      "node_width": 12,
+      "node_height": 12,
+      "svg_width": 12,
+      "svg_height": 12
+    },
+    {
+      "file": "label-dot1.svg",
+      "node_id": "1478:36278",
+      "node_width": 12,
+      "node_height": 12,
+      "svg_width": 12,
+      "svg_height": 12
+    },
+    {
+      "file": "label-dot2.svg",
+      "node_id": "1478:36282",
+      "node_width": 12,
+      "node_height": 12,
+      "svg_width": 12,
+      "svg_height": 12
+    },
+    {
+      "file": "label-dot3.svg",
+      "node_id": "1478:36286",
+      "node_width": 12,
+      "node_height": 12,
+      "svg_width": 12,
+      "svg_height": 12
+    },
+    {
+      "file": "icon-arrows-in-simple.svg",
+      "node_id": "1478:36291",
+      "node_width": 20.000001907348633,
+      "node_height": 20.000001907348633,
+      "svg_width": 20,
+      "svg_height": 20
+    }
+  ],
+  "logo": {
+    "file": "logo.svg",
+    "node_id": "1478:35962"
+  },
+  "photo": {
+    "file": null,
+    "placeholder": "Инициалы МС",
+    "reason": "Загрузка личной фотографии из закрытого Figma в публичный GitHub заблокирована автоматической проверкой; требуется явное разрешение пользователя."
+  },
+  "excluded": [
+    {
+      "node_id": "I1478:36198;924:24439;905:23249;1478:36194",
+      "reason": "Icone/Table скрыт в исходном макете."
+    }
+  ]
+}
