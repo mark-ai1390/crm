@@ -83,7 +83,6 @@ function renderOrders(){
   const month=getOrderMonth(state.month),trend=getOrderTrend(state.month);
   $('#orders-total-label').textContent='Всего за '+month.genitive+':';$('#orders-total').textContent=month.count+' шт';
   $('#orders-change').textContent=formatChange(month.change);$('#orders-change').classList.toggle('negative',month.change<0);$('#orders-change').title='По сравнению с '+month.genitive+' 2025';
-  $('#forecast-note').innerHTML='Пунктир — прогноз<br><span>на '+escape(trend.date)+'</span>';
   $('#trend-description').textContent=trend.points.map(p=>p.label+': '+p.value+(p.forecast?' — прогноз':'')).join('; ')+'. Демонстрационный прогноз на '+trend.date+' 2026.';
   $('#trend-months').innerHTML=trend.points.map((p,i)=>'<span class="'+(i===2?'selected':'')+'">'+p.label+'</span>').join('');
   const reference=state.month===2;$('#trend-reference').hidden=!reference;$('#trend-dynamic').hidden=reference;
