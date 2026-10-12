@@ -17,6 +17,10 @@ else
 fi
 
 if [ "${RUN_START_COMMAND:-0}" = "1" ]; then
+  if [ "${SITES_MANAGED_LINUX_CONTAINER:-0}" = "1" ]; then
+    echo "В managed Sites используйте поддерживаемый preview через control-browser."
+    exit 1
+  fi
   exec npm run dev
 fi
 echo "Запуск: npm run dev (http://localhost:5173)"

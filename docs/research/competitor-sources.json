@@ -1,0 +1,170 @@
+[
+  {
+    "id": "S1",
+    "title": "retailCRM: Шаблоны фильтров поиска заказов.",
+    "url": "https://docs.retailcrm.ru/Users/OperatingActivity/Orders/OrdersList/FilterOfOrdersList/OrdersFilterTemplates",
+    "web_ref": "turn16view0",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S2",
+    "title": "retailCRM: Работа со страницей клиента.",
+    "url": "https://docs.retailcrm.ru/Users/OperatingActivity/Clients/ClientPage/WorkClientPage",
+    "web_ref": "turn12view1",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S3",
+    "title": "Attio: Filter and sort views.",
+    "url": "https://attio.com/help/reference/managing-your-data/views/filter-and-sort-views",
+    "web_ref": "turn10view0",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S4",
+    "title": "Attio: Create and view records.",
+    "url": "https://attio.com/help/reference/managing-your-data/records/create-and-view-records",
+    "web_ref": "turn10view1",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S5",
+    "title": "Pipedrive: Detail view.",
+    "url": "https://support.pipedrive.com/en/article/detail-view",
+    "web_ref": "turn10view2",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S6",
+    "title": "Pipedrive: Activities.",
+    "url": "https://support.pipedrive.com/en/article/activities",
+    "web_ref": "turn10view3",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S7",
+    "title": "Pipedrive: Activity contextual view.",
+    "url": "https://support.pipedrive.com/en/article/activity-contextual-view",
+    "web_ref": "turn7search6",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S8",
+    "title": "Twenty: Data Model.",
+    "url": "https://docs.twenty.com/getting-started/core-concepts/data-model",
+    "web_ref": "turn14view0",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S9",
+    "title": "Twenty: Layout.",
+    "url": "https://docs.twenty.com/getting-started/core-concepts/layout",
+    "web_ref": "turn14view1",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S10",
+    "title": "Linear: Triage.",
+    "url": "https://linear.app/docs/triage",
+    "web_ref": "turn12view2",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S11",
+    "title": "Linear: Custom Views.",
+    "url": "https://linear.app/docs/custom-views",
+    "web_ref": "turn13view3",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S12",
+    "title": "Linear: Filters.",
+    "url": "https://linear.app/docs/filters",
+    "web_ref": "turn13view2",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S13",
+    "title": "Shopify: Understanding your order statuses.",
+    "url": "https://help.shopify.com/en/manual/fulfillment/managing-orders/order-status",
+    "web_ref": "turn16view2",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S14",
+    "title": "Shopify: Understanding inventory states.",
+    "url": "https://help.shopify.com/en/manual/inventory-and-locations/fundamentals/inventory-states",
+    "web_ref": "turn16view1",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S15",
+    "title": "retailCRM: Вывод данных клиента в карточку заказа.",
+    "url": "https://docs.retailcrm.ru/Users/OperatingActivity/Orders/OrderPage/WorkOrderPage/UploadingCustomerDataToOrderCard",
+    "web_ref": "turn10view5",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S16",
+    "title": "retailCRM: История изменений по заказу.",
+    "url": "https://docs.retailcrm.ru/Users/OperatingActivity/Orders/OrderPage/WorkOrderPage/HistoryOfChanges",
+    "web_ref": "turn10view4",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S17",
+    "title": "retailCRM: Общая информация о триггерах.",
+    "url": "https://docs.retailcrm.ru/Users/AutomationUser/FunctionTriggers/GeneralInformatioTriggers",
+    "web_ref": "turn8search3",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S18",
+    "title": "retailCRM: Примеры триггеров.",
+    "url": "https://docs.retailcrm.ru/Users/AutomationUser/FunctionTriggers/triggerexamples",
+    "web_ref": "turn8search2",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S19",
+    "title": "Attio: Troubleshooting workflows.",
+    "url": "https://attio.com/help/reference/automations/workflows/troubleshooting-workflows",
+    "web_ref": "turn16view3",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S20",
+    "title": "Twenty: Workflows.",
+    "url": "https://docs.twenty.com/getting-started/core-concepts/workflows",
+    "web_ref": "turn14view2",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S21",
+    "title": "Pipedrive: Insights reports - deal performance.",
+    "url": "https://support.pipedrive.com/en/article/insights-reports-deal-performance",
+    "web_ref": "turn12view3",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S22",
+    "title": "Pipedrive: Insights - combine linked item data in reports.",
+    "url": "https://support.pipedrive.com/en/article/insights-combined-data",
+    "web_ref": "turn12view4",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S23",
+    "title": "Twenty: Dashboards.",
+    "url": "https://docs.twenty.com/getting-started/core-concepts/dashboards",
+    "web_ref": "turn14view3",
+    "accessed": "2026-10-12"
+  },
+  {
+    "id": "S24",
+    "title": "retailCRM: Время пребывания в статусе.",
+    "url": "https://docs.retailcrm.ru/Users/Analytics/OrderAnalytics/TimeInStatus",
+    "web_ref": "turn16view4",
+    "accessed": "2026-10-12"
+  }
+]

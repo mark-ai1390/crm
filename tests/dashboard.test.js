@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {CHANNELS,DAILY_REVENUE,HOURLY_REVENUE,MANAGERS,UNASSIGNED_REVENUE,MONTH_REVENUE,DAY_REVENUE,ORDER_MONTHS,allocateTotal,percentageShares,getChannels,getSummary,getRevenuePeriod,getOrderMonth,getOrderTrend,createSummaryCsv,sum} from '../public/assets/js/dashboard-data.js';
 import {readSidebarState,saveSidebarState,changeBranch} from '../public/assets/js/sidebar.js';
+import {calculateOrderTotal} from '../public/assets/js/pages.js';
 
 test('KPI, каналы, дни месяца и часы используют согласованные суммы',()=>{
   assert.equal(MONTH_REVENUE,1248900);
@@ -78,8 +79,12 @@ test('Навигация восстанавливает только допус�
   assert.deepEqual(readSidebarState({getItem:()=>'{broken'}),{compact:false,salesOpen:false,inventoryOpen:false});
   assert.doesNotThrow(()=>saveSidebarState({setItem:()=>{throw Error('Unavailable');}},{}));
 });
+test('Форма заказа согласованно считает товар, скидку, доставку и итог',()=>{
+  assert.deepEqual(calculateOrderTotal(2,10,300),{quantity:2,subtotal:24000,discount:2400,delivery:300,total:21900});
+  assert.deepEqual(calculateOrderTotal(0,150,-30),{quantity:1,subtotal:12000,discount:12000,delivery:0,total:0});
+});
 test('Разметка содержит доступные связи контролов без повторённых id',async()=>{
-  const html=await readFile(new URL('../public/index.html',import.meta.url),'utf8');
+  const html=await readFile(new URL('../public/legacy/index.html',import.meta.url),'utf8');
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
   assert.equal(new Set(ids).size,ids.length);
   for(const m of html.matchAll(/\b(?:aria-controls|aria-labelledby)="([^"]+)"/g))for(const id of m[1].split(' '))assert(ids.includes(id),id);

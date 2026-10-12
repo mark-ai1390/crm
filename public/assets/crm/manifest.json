@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Icon/Bell",
+    "id": "I835:3771;148:13379",
+    "w": 20,
+    "h": 20,
+    "file": "icon-bell.svg"
+  },
+  {
+    "name": "Icon/TrendUp",
+    "id": "I961:32768;961:32740",
+    "w": 16,
+    "h": 16,
+    "file": "icon-trendup.svg"
+  },
+  {
+    "name": "Icon/HandbagSimple",
+    "id": "I961:32768;961:32743;148:13405",
+    "w": 20.000001907348633,
+    "h": 20.000001907348633,
+    "file": "icon-handbagsimple.svg"
+  },
+  {
+    "name": "Icon/Handshake",
+    "id": "I961:32784;961:32743;838:5743",
+    "w": 20.000001907348633,
+    "h": 20.000001907348633,
+    "file": "icon-handshake.svg"
+  },
+  {
+    "name": "Icon/TrendDown",
+    "id": "I961:32805;961:32755",
+    "w": 16,
+    "h": 16,
+    "file": "icon-trenddown.svg"
+  },
+  {
+    "name": "Icon/Money",
+    "id": "I961:32805;961:32758;839:5817",
+    "w": 20.000001907348633,
+    "h": 20.000001907348633,
+    "file": "icon-money.svg"
+  },
+  {
+    "name": "Icon/ArrowsClockwise",
+    "id": "I961:32849;961:32758;839:5781",
+    "w": 20.000001907348633,
+    "h": 20.000001907348633,
+    "file": "icon-arrowsclockwise.svg"
+  },
+  {
+    "name": "Icon/WarningCircle",
+    "id": "901:10077",
+    "w": 16,
+    "h": 16,
+    "file": "icon-warningcircle.svg"
+  },
+  {
+    "name": "Icon/CaretDown",
+    "id": "I901:10080;1312:22161",
+    "w": 20,
+    "h": 20,
+    "file": "icon-caretdown.svg"
+  },
+  {
+    "name": "Icon/GearSix",
+    "id": "I901:10506;148:13379",
+    "w": 20,
+    "h": 20,
+    "file": "icon-gearsix.svg"
+  },
+  {
+    "name": "Icone/Table",
+    "id": "I991:36261;988:35855",
+    "w": 19.999998092651367,
+    "h": 19.999998092651367,
+    "file": "icone-table.svg"
+  },
+  {
+    "name": "Icon/ArrowCounterClockwise",
+    "id": "I991:36261;991:36201",
+    "w": 19.999998092651367,
+    "h": 19.999998092651367,
+    "file": "icon-arrowcounterclockwise.svg"
+  },
+  {
+    "name": "Icon/CreditCard",
+    "id": "I991:36261;991:36253",
+    "w": 20,
+    "h": 20,
+    "file": "icon-creditcard.svg"
+  },
+  {
+    "name": "Icon/X",
+    "id": "I991:36261;991:36209",
+    "w": 19.999998092651367,
+    "h": 19.999998092651367,
+    "file": "icon-x.svg"
+  }
+]
