@@ -52,5 +52,5 @@ export function initSidebar() {
     else if(event.key==='Escape'&&mobileOpen){event.preventDefault();closeMobile();}
   });
   render();
-  return {closeMobile,restoreFocus(element){if(media.matches&&!mobileOpen&&sidebar.contains(element))mobileButton.focus();else if(element?.isConnected)element.focus();}};
+  return {closeMobile,reveal(inventory=false){state={...state,salesOpen:true,inventoryOpen:inventory||state.inventoryOpen};render();},restoreFocus(element){if(media.matches&&!mobileOpen&&sidebar.contains(element))mobileButton.focus();else if(element?.isConnected)element.focus();}};
 }

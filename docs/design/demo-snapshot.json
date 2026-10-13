@@ -1,0 +1,2904 @@
+{
+  "version": 2,
+  "now": "2026-10-12T12:00:00",
+  "currentUserId": "m1",
+  "customers": [
+    {
+      "id": "c1",
+      "name": "Мария Савина",
+      "email": "customer1@example.com",
+      "phone": "+7 900 110 0010",
+      "managerId": "m1",
+      "segment": "VIP",
+      "city": "Москва",
+      "address": "Демонстрационный адрес, дом 1",
+      "note": "",
+      "createdAt": "2026-09-01"
+    },
+    {
+      "id": "c2",
+      "name": "Анна Котова",
+      "email": "customer2@example.com",
+      "phone": "+7 900 110 0011",
+      "managerId": "m2",
+      "segment": "Постоянный",
+      "city": "Санкт-Петербург",
+      "address": "Демонстрационный адрес, дом 2",
+      "note": "",
+      "createdAt": "2026-09-02"
+    },
+    {
+      "id": "c3",
+      "name": "Сергей Миронов",
+      "email": "customer3@example.com",
+      "phone": "+7 900 110 0012",
+      "managerId": "m3",
+      "segment": "Постоянный",
+      "city": "Казань",
+      "address": "Демонстрационный адрес, дом 3",
+      "note": "",
+      "createdAt": "2026-09-03"
+    },
+    {
+      "id": "c4",
+      "name": "Алексей Петров",
+      "email": "customer4@example.com",
+      "phone": "+7 900 110 0013",
+      "managerId": "m1",
+      "segment": "Постоянный",
+      "city": "Екатеринбург",
+      "address": "Демонстрационный адрес, дом 4",
+      "note": "",
+      "createdAt": "2026-09-04"
+    },
+    {
+      "id": "c5",
+      "name": "Елена Смирнова",
+      "email": "customer5@example.com",
+      "phone": "+7 900 110 0014",
+      "managerId": "m2",
+      "segment": "VIP",
+      "city": "Москва",
+      "address": "Демонстрационный адрес, дом 5",
+      "note": "",
+      "createdAt": "2026-09-05"
+    },
+    {
+      "id": "c6",
+      "name": "Дмитрий Волков",
+      "email": "customer6@example.com",
+      "phone": "+7 900 110 0015",
+      "managerId": "m3",
+      "segment": "Постоянный",
+      "city": "Санкт-Петербург",
+      "address": "Демонстрационный адрес, дом 6",
+      "note": "",
+      "createdAt": "2026-09-06"
+    },
+    {
+      "id": "c7",
+      "name": "Ольга Иванова",
+      "email": "customer7@example.com",
+      "phone": "+7 900 110 0016",
+      "managerId": "m1",
+      "segment": "Постоянный",
+      "city": "Казань",
+      "address": "Демонстрационный адрес, дом 7",
+      "note": "",
+      "createdAt": "2026-09-07"
+    },
+    {
+      "id": "c8",
+      "name": "Игорь Лебедев",
+      "email": "customer8@example.com",
+      "phone": "+7 900 110 0017",
+      "managerId": "m2",
+      "segment": "Постоянный",
+      "city": "Екатеринбург",
+      "address": "Демонстрационный адрес, дом 8",
+      "note": "",
+      "createdAt": "2026-09-08"
+    },
+    {
+      "id": "c9",
+      "name": "Наталья Орлова",
+      "email": "customer9@example.com",
+      "phone": "+7 900 110 0018",
+      "managerId": "m3",
+      "segment": "VIP",
+      "city": "Москва",
+      "address": "Демонстрационный адрес, дом 9",
+      "note": "",
+      "createdAt": "2026-09-09"
+    },
+    {
+      "id": "c10",
+      "name": "Артём Соколов",
+      "email": "customer10@example.com",
+      "phone": "+7 900 110 0019",
+      "managerId": "m1",
+      "segment": "Постоянный",
+      "city": "Санкт-Петербург",
+      "address": "Демонстрационный адрес, дом 10",
+      "note": "",
+      "createdAt": "2026-09-10"
+    },
+    {
+      "id": "c11",
+      "name": "Алина Кравцова",
+      "email": "customer11@example.com",
+      "phone": "+7 900 110 0020",
+      "managerId": "m2",
+      "segment": "Постоянный",
+      "city": "Казань",
+      "address": "Демонстрационный адрес, дом 11",
+      "note": "",
+      "createdAt": "2026-09-11"
+    },
+    {
+      "id": "c12",
+      "name": "Иван Морозов",
+      "email": "customer12@example.com",
+      "phone": "+7 900 110 0021",
+      "managerId": "m3",
+      "segment": "Постоянный",
+      "city": "Екатеринбург",
+      "address": "Демонстрационный адрес, дом 12",
+      "note": "",
+      "createdAt": "2026-09-12"
+    },
+    {
+      "id": "c13",
+      "name": "Татьяна Романова",
+      "email": "customer13@example.com",
+      "phone": "+7 900 110 0022",
+      "managerId": "m1",
+      "segment": "VIP",
+      "city": "Москва",
+      "address": "Демонстрационный адрес, дом 13",
+      "note": "",
+      "createdAt": "2026-09-13"
+    },
+    {
+      "id": "c14",
+      "name": "Денис Козлов",
+      "email": "customer14@example.com",
+      "phone": "+7 900 110 0023",
+      "managerId": "m2",
+      "segment": "Постоянный",
+      "city": "Санкт-Петербург",
+      "address": "Демонстрационный адрес, дом 14",
+      "note": "",
+      "createdAt": "2026-09-14"
+    },
+    {
+      "id": "c15",
+      "name": "Юлия Лебедева",
+      "email": "customer15@example.com",
+      "phone": "+7 900 110 0024",
+      "managerId": "m3",
+      "segment": "Постоянный",
+      "city": "Казань",
+      "address": "Демонстрационный адрес, дом 15",
+      "note": "",
+      "createdAt": "2026-09-15"
+    },
+    {
+      "id": "c16",
+      "name": "Павел Кузнецов",
+      "email": "customer16@example.com",
+      "phone": "+7 900 110 0025",
+      "managerId": "m1",
+      "segment": "Постоянный",
+      "city": "Екатеринбург",
+      "address": "Демонстрационный адрес, дом 16",
+      "note": "",
+      "createdAt": "2026-09-16"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Double Eagle Jeep Wrangler",
+      "sku": "DE-JEEP-19",
+      "price": 1200000,
+      "cost": 850000,
+      "brand": "Double Eagle",
+      "category": "Автомобили",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p2",
+      "name": "Аккумулятор Li-Po 2200 mAh",
+      "sku": "BAT-2200",
+      "price": 249000,
+      "cost": 150000,
+      "brand": "Gens Ace",
+      "category": "Аксессуары",
+      "threshold": 18,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p3",
+      "name": "WPL C24 Toyota Hilux",
+      "sku": "WPL-C24",
+      "price": 549000,
+      "cost": 340000,
+      "brand": "WPL",
+      "category": "Автомобили",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p4",
+      "name": "WLtoys 12428 1:12",
+      "sku": "WL-12428",
+      "price": 899000,
+      "cost": 560000,
+      "brand": "WLtoys",
+      "category": "Автомобили",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p5",
+      "name": "MJX Hyper Go 16208",
+      "sku": "MJX-16208",
+      "price": 1599000,
+      "cost": 1100000,
+      "brand": "MJX",
+      "category": "Автомобили",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p6",
+      "name": "Катер WLtoys WL916",
+      "sku": "WL-916",
+      "price": 1199000,
+      "cost": 790000,
+      "brand": "WLtoys",
+      "category": "Катера",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p7",
+      "name": "Квадрокоптер MJX Bugs 4W",
+      "sku": "MJX-B4W",
+      "price": 1899000,
+      "cost": 1350000,
+      "brand": "MJX",
+      "category": "Квадрокоптеры",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p8",
+      "name": "Зарядное устройство B6",
+      "sku": "CH-B6",
+      "price": 329000,
+      "cost": 210000,
+      "brand": "SkyRC",
+      "category": "Аксессуары",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p9",
+      "name": "УАЗ 469 WPL C94",
+      "sku": "WPL-C94",
+      "price": 459000,
+      "cost": 280000,
+      "brand": "WPL",
+      "category": "Автомобили",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p10",
+      "name": "Комплект шин Off-road",
+      "sku": "TYRE-120",
+      "price": 129000,
+      "cost": 65000,
+      "brand": "WPL",
+      "category": "Аксессуары",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p11",
+      "name": "Пульт FlySky FS-GT3B",
+      "sku": "FS-GT3B",
+      "price": 399000,
+      "cost": 240000,
+      "brand": "FlySky",
+      "category": "Аксессуары",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    },
+    {
+      "id": "p12",
+      "name": "Кузов Jeep Wrangler",
+      "sku": "BODY-JEEP",
+      "price": 219000,
+      "cost": 130000,
+      "brand": "Double Eagle",
+      "category": "Аксессуары",
+      "threshold": 5,
+      "active": true,
+      "description": "Модель для демонстрационного каталога 4sales. Характеристики и остатки тестовые."
+    }
+  ],
+  "managers": [
+    {
+      "id": "m1",
+      "name": "Марк Сангинов",
+      "initials": "МС",
+      "role": "manager",
+      "email": "mark@example.com",
+      "target": 200000
+    },
+    {
+      "id": "m2",
+      "name": "Анна Белова",
+      "initials": "АБ",
+      "role": "manager",
+      "email": "anna@example.com",
+      "target": 150000
+    },
+    {
+      "id": "m3",
+      "name": "Илья Макаров",
+      "initials": "ИМ",
+      "role": "manager",
+      "email": "ilya@example.com",
+      "target": 150000
+    },
+    {
+      "id": "m4",
+      "name": "Виктор Лебедев",
+      "initials": "ВЛ",
+      "role": "warehouse",
+      "email": "victor@example.com",
+      "target": 80000
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "w1",
+      "name": "Основной склад",
+      "address": "Москва",
+      "managerId": "m4"
+    },
+    {
+      "id": "w2",
+      "name": "Склад шоурума",
+      "address": "Москва",
+      "managerId": "m4"
+    }
+  ],
+  "stock": [
+    {
+      "productId": "p1",
+      "warehouseId": "w1",
+      "onHand": 32
+    },
+    {
+      "productId": "p1",
+      "warehouseId": "w2",
+      "onHand": 4
+    },
+    {
+      "productId": "p2",
+      "warehouseId": "w1",
+      "onHand": 14
+    },
+    {
+      "productId": "p2",
+      "warehouseId": "w2",
+      "onHand": 5
+    },
+    {
+      "productId": "p3",
+      "warehouseId": "w1",
+      "onHand": 36
+    },
+    {
+      "productId": "p3",
+      "warehouseId": "w2",
+      "onHand": 6
+    },
+    {
+      "productId": "p4",
+      "warehouseId": "w1",
+      "onHand": 38
+    },
+    {
+      "productId": "p4",
+      "warehouseId": "w2",
+      "onHand": 7
+    },
+    {
+      "productId": "p5",
+      "warehouseId": "w1",
+      "onHand": 40
+    },
+    {
+      "productId": "p5",
+      "warehouseId": "w2",
+      "onHand": 8
+    },
+    {
+      "productId": "p6",
+      "warehouseId": "w1",
+      "onHand": 42
+    },
+    {
+      "productId": "p6",
+      "warehouseId": "w2",
+      "onHand": 4
+    },
+    {
+      "productId": "p7",
+      "warehouseId": "w1",
+      "onHand": 44
+    },
+    {
+      "productId": "p7",
+      "warehouseId": "w2",
+      "onHand": 5
+    },
+    {
+      "productId": "p8",
+      "warehouseId": "w1",
+      "onHand": 46
+    },
+    {
+      "productId": "p8",
+      "warehouseId": "w2",
+      "onHand": 6
+    },
+    {
+      "productId": "p9",
+      "warehouseId": "w1",
+      "onHand": 48
+    },
+    {
+      "productId": "p9",
+      "warehouseId": "w2",
+      "onHand": 7
+    },
+    {
+      "productId": "p10",
+      "warehouseId": "w1",
+      "onHand": 50
+    },
+    {
+      "productId": "p10",
+      "warehouseId": "w2",
+      "onHand": 8
+    },
+    {
+      "productId": "p11",
+      "warehouseId": "w1",
+      "onHand": 52
+    },
+    {
+      "productId": "p11",
+      "warehouseId": "w2",
+      "onHand": 4
+    },
+    {
+      "productId": "p12",
+      "warehouseId": "w1",
+      "onHand": 54
+    },
+    {
+      "productId": "p12",
+      "warehouseId": "w2",
+      "onHand": 5
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "customerId": "c1",
+      "managerId": "m2",
+      "channel": "Маркетплейс",
+      "status": "completed",
+      "createdAt": "2026-09-17T10:30:00",
+      "updatedAt": "2026-09-17T10:30:00",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Double Eagle Jeep Wrangler",
+          "sku": "DE-JEEP-19",
+          "quantity": 1,
+          "unitPrice": 1200000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 1",
+        "recipient": "Мария Савина",
+        "phone": "+7 900 110 0010",
+        "email": "customer1@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1002,
+      "customerId": "c2",
+      "managerId": "m3",
+      "channel": "Чат",
+      "status": "shipped",
+      "createdAt": "2026-09-18T10:30:00",
+      "updatedAt": "2026-09-18T10:30:00",
+      "items": [
+        {
+          "productId": "p2",
+          "name": "Аккумулятор Li-Po 2200 mAh",
+          "sku": "BAT-2200",
+          "quantity": 1,
+          "unitPrice": 249000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 2",
+        "recipient": "Анна Котова",
+        "phone": "+7 900 110 0011",
+        "email": "customer2@example.com"
+      },
+      "note": "",
+      "shipment": "shipped"
+    },
+    {
+      "id": 1003,
+      "customerId": "c3",
+      "managerId": "m1",
+      "channel": "Офлайн",
+      "status": "confirmed",
+      "createdAt": "2026-09-19T10:30:00",
+      "updatedAt": "2026-09-19T10:30:00",
+      "items": [
+        {
+          "productId": "p3",
+          "name": "WPL C24 Toyota Hilux",
+          "sku": "WPL-C24",
+          "quantity": 1,
+          "unitPrice": 549000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 3",
+        "recipient": "Сергей Миронов",
+        "phone": "+7 900 110 0012",
+        "email": "customer3@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1004,
+      "customerId": "c4",
+      "managerId": "m2",
+      "channel": "Сайт",
+      "status": "new",
+      "createdAt": "2026-09-20T10:30:00",
+      "updatedAt": "2026-09-20T10:30:00",
+      "items": [
+        {
+          "productId": "p4",
+          "name": "WLtoys 12428 1:12",
+          "sku": "WL-12428",
+          "quantity": 1,
+          "unitPrice": 899000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 4",
+        "recipient": "Алексей Петров",
+        "phone": "+7 900 110 0013",
+        "email": "customer4@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1005,
+      "customerId": "c5",
+      "managerId": "m3",
+      "channel": "Маркетплейс",
+      "status": "confirmed",
+      "createdAt": "2026-09-21T10:30:00",
+      "updatedAt": "2026-09-21T10:30:00",
+      "items": [
+        {
+          "productId": "p5",
+          "name": "MJX Hyper Go 16208",
+          "sku": "MJX-16208",
+          "quantity": 2,
+          "unitPrice": 1599000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 5",
+        "recipient": "Елена Смирнова",
+        "phone": "+7 900 110 0014",
+        "email": "customer5@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1006,
+      "customerId": "c6",
+      "managerId": "m1",
+      "channel": "Чат",
+      "status": "completed",
+      "createdAt": "2026-09-22T10:30:00",
+      "updatedAt": "2026-09-22T10:30:00",
+      "items": [
+        {
+          "productId": "p6",
+          "name": "Катер WLtoys WL916",
+          "sku": "WL-916",
+          "quantity": 1,
+          "unitPrice": 1199000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 6",
+        "recipient": "Дмитрий Волков",
+        "phone": "+7 900 110 0015",
+        "email": "customer6@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1007,
+      "customerId": "c7",
+      "managerId": "m2",
+      "channel": "Офлайн",
+      "status": "cancelled",
+      "createdAt": "2026-09-23T10:30:00",
+      "updatedAt": "2026-09-23T10:30:00",
+      "items": [
+        {
+          "productId": "p7",
+          "name": "Квадрокоптер MJX Bugs 4W",
+          "sku": "MJX-B4W",
+          "quantity": 1,
+          "unitPrice": 1899000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 7",
+        "recipient": "Ольга Иванова",
+        "phone": "+7 900 110 0016",
+        "email": "customer7@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1008,
+      "customerId": "c8",
+      "managerId": "m3",
+      "channel": "Сайт",
+      "status": "completed",
+      "createdAt": "2026-09-24T10:30:00",
+      "updatedAt": "2026-09-24T10:30:00",
+      "items": [
+        {
+          "productId": "p8",
+          "name": "Зарядное устройство B6",
+          "sku": "CH-B6",
+          "quantity": 1,
+          "unitPrice": 329000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 8",
+        "recipient": "Игорь Лебедев",
+        "phone": "+7 900 110 0017",
+        "email": "customer8@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1009,
+      "customerId": "c9",
+      "managerId": "m1",
+      "channel": "Маркетплейс",
+      "status": "completed",
+      "createdAt": "2026-09-25T10:30:00",
+      "updatedAt": "2026-09-25T10:30:00",
+      "items": [
+        {
+          "productId": "p9",
+          "name": "УАЗ 469 WPL C94",
+          "sku": "WPL-C94",
+          "quantity": 1,
+          "unitPrice": 459000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 9",
+        "recipient": "Наталья Орлова",
+        "phone": "+7 900 110 0018",
+        "email": "customer9@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1010,
+      "customerId": "c10",
+      "managerId": "m2",
+      "channel": "Чат",
+      "status": "shipped",
+      "createdAt": "2026-09-26T10:30:00",
+      "updatedAt": "2026-09-26T10:30:00",
+      "items": [
+        {
+          "productId": "p10",
+          "name": "Комплект шин Off-road",
+          "sku": "TYRE-120",
+          "quantity": 2,
+          "unitPrice": 129000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 10",
+        "recipient": "Артём Соколов",
+        "phone": "+7 900 110 0019",
+        "email": "customer10@example.com"
+      },
+      "note": "",
+      "shipment": "shipped"
+    },
+    {
+      "id": 1011,
+      "customerId": "c11",
+      "managerId": "m3",
+      "channel": "Офлайн",
+      "status": "confirmed",
+      "createdAt": "2026-09-27T10:30:00",
+      "updatedAt": "2026-09-27T10:30:00",
+      "items": [
+        {
+          "productId": "p11",
+          "name": "Пульт FlySky FS-GT3B",
+          "sku": "FS-GT3B",
+          "quantity": 1,
+          "unitPrice": 399000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 11",
+        "recipient": "Алина Кравцова",
+        "phone": "+7 900 110 0020",
+        "email": "customer11@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1012,
+      "customerId": "c12",
+      "managerId": "m1",
+      "channel": "Сайт",
+      "status": "new",
+      "createdAt": "2026-09-28T10:30:00",
+      "updatedAt": "2026-09-28T10:30:00",
+      "items": [
+        {
+          "productId": "p12",
+          "name": "Кузов Jeep Wrangler",
+          "sku": "BODY-JEEP",
+          "quantity": 1,
+          "unitPrice": 219000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 12",
+        "recipient": "Иван Морозов",
+        "phone": "+7 900 110 0021",
+        "email": "customer12@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1013,
+      "customerId": "c13",
+      "managerId": "m2",
+      "channel": "Маркетплейс",
+      "status": "confirmed",
+      "createdAt": "2026-10-01T10:30:00",
+      "updatedAt": "2026-10-01T10:30:00",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Double Eagle Jeep Wrangler",
+          "sku": "DE-JEEP-19",
+          "quantity": 1,
+          "unitPrice": 1200000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 13",
+        "recipient": "Татьяна Романова",
+        "phone": "+7 900 110 0022",
+        "email": "customer13@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1014,
+      "customerId": "c14",
+      "managerId": "m3",
+      "channel": "Чат",
+      "status": "completed",
+      "createdAt": "2026-10-02T10:30:00",
+      "updatedAt": "2026-10-02T10:30:00",
+      "items": [
+        {
+          "productId": "p2",
+          "name": "Аккумулятор Li-Po 2200 mAh",
+          "sku": "BAT-2200",
+          "quantity": 1,
+          "unitPrice": 249000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 14",
+        "recipient": "Денис Козлов",
+        "phone": "+7 900 110 0023",
+        "email": "customer14@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1015,
+      "customerId": "c15",
+      "managerId": "m1",
+      "channel": "Офлайн",
+      "status": "cancelled",
+      "createdAt": "2026-10-03T10:30:00",
+      "updatedAt": "2026-10-03T10:30:00",
+      "items": [
+        {
+          "productId": "p3",
+          "name": "WPL C24 Toyota Hilux",
+          "sku": "WPL-C24",
+          "quantity": 2,
+          "unitPrice": 549000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 15",
+        "recipient": "Юлия Лебедева",
+        "phone": "+7 900 110 0024",
+        "email": "customer15@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1016,
+      "customerId": "c16",
+      "managerId": "m2",
+      "channel": "Сайт",
+      "status": "completed",
+      "createdAt": "2026-10-04T10:30:00",
+      "updatedAt": "2026-10-04T10:30:00",
+      "items": [
+        {
+          "productId": "p4",
+          "name": "WLtoys 12428 1:12",
+          "sku": "WL-12428",
+          "quantity": 1,
+          "unitPrice": 899000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 16",
+        "recipient": "Павел Кузнецов",
+        "phone": "+7 900 110 0025",
+        "email": "customer16@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1017,
+      "customerId": "c1",
+      "managerId": "m3",
+      "channel": "Маркетплейс",
+      "status": "completed",
+      "createdAt": "2026-10-05T10:30:00",
+      "updatedAt": "2026-10-05T10:30:00",
+      "items": [
+        {
+          "productId": "p5",
+          "name": "MJX Hyper Go 16208",
+          "sku": "MJX-16208",
+          "quantity": 1,
+          "unitPrice": 1599000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 1",
+        "recipient": "Мария Савина",
+        "phone": "+7 900 110 0010",
+        "email": "customer1@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1018,
+      "customerId": "c2",
+      "managerId": "m1",
+      "channel": "Чат",
+      "status": "shipped",
+      "createdAt": "2026-10-06T10:30:00",
+      "updatedAt": "2026-10-06T10:30:00",
+      "items": [
+        {
+          "productId": "p6",
+          "name": "Катер WLtoys WL916",
+          "sku": "WL-916",
+          "quantity": 1,
+          "unitPrice": 1199000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 2",
+        "recipient": "Анна Котова",
+        "phone": "+7 900 110 0011",
+        "email": "customer2@example.com"
+      },
+      "note": "",
+      "shipment": "shipped"
+    },
+    {
+      "id": 1019,
+      "customerId": "c3",
+      "managerId": "m2",
+      "channel": "Офлайн",
+      "status": "confirmed",
+      "createdAt": "2026-10-07T10:30:00",
+      "updatedAt": "2026-10-07T10:30:00",
+      "items": [
+        {
+          "productId": "p7",
+          "name": "Квадрокоптер MJX Bugs 4W",
+          "sku": "MJX-B4W",
+          "quantity": 1,
+          "unitPrice": 1899000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 3",
+        "recipient": "Сергей Миронов",
+        "phone": "+7 900 110 0012",
+        "email": "customer3@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1020,
+      "customerId": "c4",
+      "managerId": "m3",
+      "channel": "Сайт",
+      "status": "new",
+      "createdAt": "2026-10-08T10:30:00",
+      "updatedAt": "2026-10-08T10:30:00",
+      "items": [
+        {
+          "productId": "p8",
+          "name": "Зарядное устройство B6",
+          "sku": "CH-B6",
+          "quantity": 2,
+          "unitPrice": 329000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 4",
+        "recipient": "Алексей Петров",
+        "phone": "+7 900 110 0013",
+        "email": "customer4@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1021,
+      "customerId": "c5",
+      "managerId": "m1",
+      "channel": "Маркетплейс",
+      "status": "confirmed",
+      "createdAt": "2026-10-09T10:30:00",
+      "updatedAt": "2026-10-09T10:30:00",
+      "items": [
+        {
+          "productId": "p9",
+          "name": "УАЗ 469 WPL C94",
+          "sku": "WPL-C94",
+          "quantity": 1,
+          "unitPrice": 459000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 5",
+        "recipient": "Елена Смирнова",
+        "phone": "+7 900 110 0014",
+        "email": "customer5@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1022,
+      "customerId": "c6",
+      "managerId": "m2",
+      "channel": "Чат",
+      "status": "completed",
+      "createdAt": "2026-10-10T10:30:00",
+      "updatedAt": "2026-10-10T10:30:00",
+      "items": [
+        {
+          "productId": "p10",
+          "name": "Комплект шин Off-road",
+          "sku": "TYRE-120",
+          "quantity": 1,
+          "unitPrice": 129000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 6",
+        "recipient": "Дмитрий Волков",
+        "phone": "+7 900 110 0015",
+        "email": "customer6@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1023,
+      "customerId": "c7",
+      "managerId": "m3",
+      "channel": "Офлайн",
+      "status": "cancelled",
+      "createdAt": "2026-10-11T10:30:00",
+      "updatedAt": "2026-10-11T10:30:00",
+      "items": [
+        {
+          "productId": "p11",
+          "name": "Пульт FlySky FS-GT3B",
+          "sku": "FS-GT3B",
+          "quantity": 1,
+          "unitPrice": 399000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 7",
+        "recipient": "Ольга Иванова",
+        "phone": "+7 900 110 0016",
+        "email": "customer7@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1024,
+      "customerId": "c8",
+      "managerId": "m1",
+      "channel": "Сайт",
+      "status": "completed",
+      "createdAt": "2026-10-12T10:30:00",
+      "updatedAt": "2026-10-12T10:30:00",
+      "items": [
+        {
+          "productId": "p12",
+          "name": "Кузов Jeep Wrangler",
+          "sku": "BODY-JEEP",
+          "quantity": 1,
+          "unitPrice": 219000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 8",
+        "recipient": "Игорь Лебедев",
+        "phone": "+7 900 110 0017",
+        "email": "customer8@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1025,
+      "customerId": "c9",
+      "managerId": "m2",
+      "channel": "Маркетплейс",
+      "status": "completed",
+      "createdAt": "2026-10-01T10:30:00",
+      "updatedAt": "2026-10-01T10:30:00",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Double Eagle Jeep Wrangler",
+          "sku": "DE-JEEP-19",
+          "quantity": 2,
+          "unitPrice": 1200000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 9",
+        "recipient": "Наталья Орлова",
+        "phone": "+7 900 110 0018",
+        "email": "customer9@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1026,
+      "customerId": "c10",
+      "managerId": "m3",
+      "channel": "Чат",
+      "status": "shipped",
+      "createdAt": "2026-10-02T10:30:00",
+      "updatedAt": "2026-10-02T10:30:00",
+      "items": [
+        {
+          "productId": "p2",
+          "name": "Аккумулятор Li-Po 2200 mAh",
+          "sku": "BAT-2200",
+          "quantity": 1,
+          "unitPrice": 249000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 10",
+        "recipient": "Артём Соколов",
+        "phone": "+7 900 110 0019",
+        "email": "customer10@example.com"
+      },
+      "note": "",
+      "shipment": "shipped"
+    },
+    {
+      "id": 1027,
+      "customerId": "c11",
+      "managerId": "m1",
+      "channel": "Офлайн",
+      "status": "confirmed",
+      "createdAt": "2026-10-03T10:30:00",
+      "updatedAt": "2026-10-03T10:30:00",
+      "items": [
+        {
+          "productId": "p3",
+          "name": "WPL C24 Toyota Hilux",
+          "sku": "WPL-C24",
+          "quantity": 1,
+          "unitPrice": 549000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 11",
+        "recipient": "Алина Кравцова",
+        "phone": "+7 900 110 0020",
+        "email": "customer11@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1028,
+      "customerId": "c12",
+      "managerId": "m2",
+      "channel": "Сайт",
+      "status": "new",
+      "createdAt": "2026-10-04T10:30:00",
+      "updatedAt": "2026-10-04T10:30:00",
+      "items": [
+        {
+          "productId": "p4",
+          "name": "WLtoys 12428 1:12",
+          "sku": "WL-12428",
+          "quantity": 1,
+          "unitPrice": 899000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 12",
+        "recipient": "Иван Морозов",
+        "phone": "+7 900 110 0021",
+        "email": "customer12@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1029,
+      "customerId": "c13",
+      "managerId": "m3",
+      "channel": "Маркетплейс",
+      "status": "confirmed",
+      "createdAt": "2026-10-05T10:30:00",
+      "updatedAt": "2026-10-05T10:30:00",
+      "items": [
+        {
+          "productId": "p5",
+          "name": "MJX Hyper Go 16208",
+          "sku": "MJX-16208",
+          "quantity": 1,
+          "unitPrice": 1599000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 13",
+        "recipient": "Татьяна Романова",
+        "phone": "+7 900 110 0022",
+        "email": "customer13@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1030,
+      "customerId": "c14",
+      "managerId": "m1",
+      "channel": "Чат",
+      "status": "completed",
+      "createdAt": "2026-10-06T10:30:00",
+      "updatedAt": "2026-10-06T10:30:00",
+      "items": [
+        {
+          "productId": "p6",
+          "name": "Катер WLtoys WL916",
+          "sku": "WL-916",
+          "quantity": 2,
+          "unitPrice": 1199000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 14",
+        "recipient": "Денис Козлов",
+        "phone": "+7 900 110 0023",
+        "email": "customer14@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1031,
+      "customerId": "c15",
+      "managerId": "m2",
+      "channel": "Офлайн",
+      "status": "cancelled",
+      "createdAt": "2026-10-07T10:30:00",
+      "updatedAt": "2026-10-07T10:30:00",
+      "items": [
+        {
+          "productId": "p7",
+          "name": "Квадрокоптер MJX Bugs 4W",
+          "sku": "MJX-B4W",
+          "quantity": 1,
+          "unitPrice": 1899000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 15",
+        "recipient": "Юлия Лебедева",
+        "phone": "+7 900 110 0024",
+        "email": "customer15@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1032,
+      "customerId": "c16",
+      "managerId": "m3",
+      "channel": "Сайт",
+      "status": "completed",
+      "createdAt": "2026-10-08T10:30:00",
+      "updatedAt": "2026-10-08T10:30:00",
+      "items": [
+        {
+          "productId": "p8",
+          "name": "Зарядное устройство B6",
+          "sku": "CH-B6",
+          "quantity": 1,
+          "unitPrice": 329000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 16",
+        "recipient": "Павел Кузнецов",
+        "phone": "+7 900 110 0025",
+        "email": "customer16@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1033,
+      "customerId": "c1",
+      "managerId": "m1",
+      "channel": "Маркетплейс",
+      "status": "completed",
+      "createdAt": "2026-10-09T10:30:00",
+      "updatedAt": "2026-10-09T10:30:00",
+      "items": [
+        {
+          "productId": "p9",
+          "name": "УАЗ 469 WPL C94",
+          "sku": "WPL-C94",
+          "quantity": 1,
+          "unitPrice": 459000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 1",
+        "recipient": "Мария Савина",
+        "phone": "+7 900 110 0010",
+        "email": "customer1@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1034,
+      "customerId": "c2",
+      "managerId": "m2",
+      "channel": "Чат",
+      "status": "shipped",
+      "createdAt": "2026-10-10T10:30:00",
+      "updatedAt": "2026-10-10T10:30:00",
+      "items": [
+        {
+          "productId": "p10",
+          "name": "Комплект шин Off-road",
+          "sku": "TYRE-120",
+          "quantity": 1,
+          "unitPrice": 129000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 2",
+        "recipient": "Анна Котова",
+        "phone": "+7 900 110 0011",
+        "email": "customer2@example.com"
+      },
+      "note": "",
+      "shipment": "shipped"
+    },
+    {
+      "id": 1035,
+      "customerId": "c3",
+      "managerId": "m3",
+      "channel": "Офлайн",
+      "status": "confirmed",
+      "createdAt": "2026-10-11T10:30:00",
+      "updatedAt": "2026-10-11T10:30:00",
+      "items": [
+        {
+          "productId": "p11",
+          "name": "Пульт FlySky FS-GT3B",
+          "sku": "FS-GT3B",
+          "quantity": 2,
+          "unitPrice": 399000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 3",
+        "recipient": "Сергей Миронов",
+        "phone": "+7 900 110 0012",
+        "email": "customer3@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1036,
+      "customerId": "c4",
+      "managerId": "m1",
+      "channel": "Сайт",
+      "status": "new",
+      "createdAt": "2026-10-12T10:30:00",
+      "updatedAt": "2026-10-12T10:30:00",
+      "items": [
+        {
+          "productId": "p12",
+          "name": "Кузов Jeep Wrangler",
+          "sku": "BODY-JEEP",
+          "quantity": 1,
+          "unitPrice": 219000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 4",
+        "recipient": "Алексей Петров",
+        "phone": "+7 900 110 0013",
+        "email": "customer4@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1037,
+      "customerId": "c5",
+      "managerId": "m2",
+      "channel": "Маркетплейс",
+      "status": "confirmed",
+      "createdAt": "2026-10-01T10:30:00",
+      "updatedAt": "2026-10-01T10:30:00",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Double Eagle Jeep Wrangler",
+          "sku": "DE-JEEP-19",
+          "quantity": 1,
+          "unitPrice": 1200000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 5",
+        "recipient": "Елена Смирнова",
+        "phone": "+7 900 110 0014",
+        "email": "customer5@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1038,
+      "customerId": "c6",
+      "managerId": "m3",
+      "channel": "Чат",
+      "status": "completed",
+      "createdAt": "2026-10-02T10:30:00",
+      "updatedAt": "2026-10-02T10:30:00",
+      "items": [
+        {
+          "productId": "p2",
+          "name": "Аккумулятор Li-Po 2200 mAh",
+          "sku": "BAT-2200",
+          "quantity": 1,
+          "unitPrice": 249000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 6",
+        "recipient": "Дмитрий Волков",
+        "phone": "+7 900 110 0015",
+        "email": "customer6@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1039,
+      "customerId": "c7",
+      "managerId": "m1",
+      "channel": "Офлайн",
+      "status": "cancelled",
+      "createdAt": "2026-10-03T10:30:00",
+      "updatedAt": "2026-10-03T10:30:00",
+      "items": [
+        {
+          "productId": "p3",
+          "name": "WPL C24 Toyota Hilux",
+          "sku": "WPL-C24",
+          "quantity": 1,
+          "unitPrice": 549000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 7",
+        "recipient": "Ольга Иванова",
+        "phone": "+7 900 110 0016",
+        "email": "customer7@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1040,
+      "customerId": "c8",
+      "managerId": "m2",
+      "channel": "Сайт",
+      "status": "completed",
+      "createdAt": "2026-10-04T10:30:00",
+      "updatedAt": "2026-10-04T10:30:00",
+      "items": [
+        {
+          "productId": "p4",
+          "name": "WLtoys 12428 1:12",
+          "sku": "WL-12428",
+          "quantity": 2,
+          "unitPrice": 899000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 8",
+        "recipient": "Игорь Лебедев",
+        "phone": "+7 900 110 0017",
+        "email": "customer8@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1041,
+      "customerId": "c9",
+      "managerId": "m3",
+      "channel": "Маркетплейс",
+      "status": "completed",
+      "createdAt": "2026-10-05T10:30:00",
+      "updatedAt": "2026-10-05T10:30:00",
+      "items": [
+        {
+          "productId": "p5",
+          "name": "MJX Hyper Go 16208",
+          "sku": "MJX-16208",
+          "quantity": 1,
+          "unitPrice": 1599000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 9",
+        "recipient": "Наталья Орлова",
+        "phone": "+7 900 110 0018",
+        "email": "customer9@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1042,
+      "customerId": "c10",
+      "managerId": "m1",
+      "channel": "Чат",
+      "status": "shipped",
+      "createdAt": "2026-10-06T10:30:00",
+      "updatedAt": "2026-10-06T10:30:00",
+      "items": [
+        {
+          "productId": "p6",
+          "name": "Катер WLtoys WL916",
+          "sku": "WL-916",
+          "quantity": 1,
+          "unitPrice": 1199000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 10",
+        "recipient": "Артём Соколов",
+        "phone": "+7 900 110 0019",
+        "email": "customer10@example.com"
+      },
+      "note": "",
+      "shipment": "shipped"
+    },
+    {
+      "id": 1043,
+      "customerId": "c11",
+      "managerId": "m2",
+      "channel": "Офлайн",
+      "status": "confirmed",
+      "createdAt": "2026-10-07T10:30:00",
+      "updatedAt": "2026-10-07T10:30:00",
+      "items": [
+        {
+          "productId": "p7",
+          "name": "Квадрокоптер MJX Bugs 4W",
+          "sku": "MJX-B4W",
+          "quantity": 1,
+          "unitPrice": 1899000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 11",
+        "recipient": "Алина Кравцова",
+        "phone": "+7 900 110 0020",
+        "email": "customer11@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1044,
+      "customerId": "c12",
+      "managerId": "m3",
+      "channel": "Сайт",
+      "status": "new",
+      "createdAt": "2026-10-08T10:30:00",
+      "updatedAt": "2026-10-08T10:30:00",
+      "items": [
+        {
+          "productId": "p8",
+          "name": "Зарядное устройство B6",
+          "sku": "CH-B6",
+          "quantity": 1,
+          "unitPrice": 329000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 12",
+        "recipient": "Иван Морозов",
+        "phone": "+7 900 110 0021",
+        "email": "customer12@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1045,
+      "customerId": "c13",
+      "managerId": "m1",
+      "channel": "Маркетплейс",
+      "status": "confirmed",
+      "createdAt": "2026-10-09T10:30:00",
+      "updatedAt": "2026-10-09T10:30:00",
+      "items": [
+        {
+          "productId": "p9",
+          "name": "УАЗ 469 WPL C94",
+          "sku": "WPL-C94",
+          "quantity": 2,
+          "unitPrice": 459000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 13",
+        "recipient": "Татьяна Романова",
+        "phone": "+7 900 110 0022",
+        "email": "customer13@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1046,
+      "customerId": "c14",
+      "managerId": "m2",
+      "channel": "Чат",
+      "status": "completed",
+      "createdAt": "2026-10-10T10:30:00",
+      "updatedAt": "2026-10-10T10:30:00",
+      "items": [
+        {
+          "productId": "p10",
+          "name": "Комплект шин Off-road",
+          "sku": "TYRE-120",
+          "quantity": 1,
+          "unitPrice": 129000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 14",
+        "recipient": "Денис Козлов",
+        "phone": "+7 900 110 0023",
+        "email": "customer14@example.com"
+      },
+      "note": "",
+      "shipment": "delivered"
+    },
+    {
+      "id": 1047,
+      "customerId": "c15",
+      "managerId": "m3",
+      "channel": "Офлайн",
+      "status": "cancelled",
+      "createdAt": "2026-10-11T10:30:00",
+      "updatedAt": "2026-10-11T10:30:00",
+      "items": [
+        {
+          "productId": "p11",
+          "name": "Пульт FlySky FS-GT3B",
+          "sku": "FS-GT3B",
+          "quantity": 1,
+          "unitPrice": 399000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 30000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Демонстрационный адрес, дом 15",
+        "recipient": "Юлия Лебедева",
+        "phone": "+7 900 110 0024",
+        "email": "customer15@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    },
+    {
+      "id": 1048,
+      "customerId": "c1",
+      "managerId": "m1",
+      "channel": "Сайт",
+      "status": "new",
+      "createdAt": "2026-10-12T10:42:00",
+      "updatedAt": "2026-10-12T10:42:00",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Double Eagle Jeep Wrangler",
+          "sku": "DE-JEEP-19",
+          "quantity": 1,
+          "unitPrice": 1200000,
+          "warehouseId": "w1"
+        },
+        {
+          "productId": "p2",
+          "name": "Аккумулятор Li-Po 2200 mAh",
+          "sku": "BAT-2200",
+          "quantity": 1,
+          "unitPrice": 249000,
+          "warehouseId": "w1"
+        }
+      ],
+      "discount": 0,
+      "shipping": 70000,
+      "delivery": {
+        "method": "Курьер",
+        "address": "Москва, ул. Лесная, 12",
+        "recipient": "Мария Савина",
+        "phone": "+7 900 110 0010",
+        "email": "customer1@example.com"
+      },
+      "note": "",
+      "shipment": "unfulfilled"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay1",
+      "orderId": 1001,
+      "amount": 1230000,
+      "kind": "payment",
+      "createdAt": "2026-09-17T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay2",
+      "orderId": 1002,
+      "amount": 279000,
+      "kind": "payment",
+      "createdAt": "2026-09-18T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay3",
+      "orderId": 1003,
+      "amount": 289500,
+      "kind": "payment",
+      "createdAt": "2026-09-19T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay5",
+      "orderId": 1005,
+      "amount": 1614000,
+      "kind": "payment",
+      "createdAt": "2026-09-21T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay6",
+      "orderId": 1006,
+      "amount": 1229000,
+      "kind": "payment",
+      "createdAt": "2026-09-22T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay8",
+      "orderId": 1008,
+      "amount": 359000,
+      "kind": "payment",
+      "createdAt": "2026-09-24T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay9",
+      "orderId": 1009,
+      "amount": 489000,
+      "kind": "payment",
+      "createdAt": "2026-09-25T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay10",
+      "orderId": 1010,
+      "amount": 288000,
+      "kind": "payment",
+      "createdAt": "2026-09-26T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay11",
+      "orderId": 1011,
+      "amount": 214500,
+      "kind": "payment",
+      "createdAt": "2026-09-27T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay13",
+      "orderId": 1013,
+      "amount": 615000,
+      "kind": "payment",
+      "createdAt": "2026-10-01T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay14",
+      "orderId": 1014,
+      "amount": 279000,
+      "kind": "payment",
+      "createdAt": "2026-10-02T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay16",
+      "orderId": 1016,
+      "amount": 929000,
+      "kind": "payment",
+      "createdAt": "2026-10-04T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay17",
+      "orderId": 1017,
+      "amount": 1629000,
+      "kind": "payment",
+      "createdAt": "2026-10-05T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay18",
+      "orderId": 1018,
+      "amount": 1229000,
+      "kind": "payment",
+      "createdAt": "2026-10-06T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay19",
+      "orderId": 1019,
+      "amount": 964500,
+      "kind": "payment",
+      "createdAt": "2026-10-07T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay21",
+      "orderId": 1021,
+      "amount": 244500,
+      "kind": "payment",
+      "createdAt": "2026-10-09T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay22",
+      "orderId": 1022,
+      "amount": 159000,
+      "kind": "payment",
+      "createdAt": "2026-10-10T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay24",
+      "orderId": 1024,
+      "amount": 249000,
+      "kind": "payment",
+      "createdAt": "2026-10-12T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay25",
+      "orderId": 1025,
+      "amount": 2430000,
+      "kind": "payment",
+      "createdAt": "2026-10-01T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay26",
+      "orderId": 1026,
+      "amount": 279000,
+      "kind": "payment",
+      "createdAt": "2026-10-02T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay27",
+      "orderId": 1027,
+      "amount": 289500,
+      "kind": "payment",
+      "createdAt": "2026-10-03T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay29",
+      "orderId": 1029,
+      "amount": 814500,
+      "kind": "payment",
+      "createdAt": "2026-10-05T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay30",
+      "orderId": 1030,
+      "amount": 2428000,
+      "kind": "payment",
+      "createdAt": "2026-10-06T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay32",
+      "orderId": 1032,
+      "amount": 359000,
+      "kind": "payment",
+      "createdAt": "2026-10-08T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay33",
+      "orderId": 1033,
+      "amount": 489000,
+      "kind": "payment",
+      "createdAt": "2026-10-09T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay34",
+      "orderId": 1034,
+      "amount": 159000,
+      "kind": "payment",
+      "createdAt": "2026-10-10T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay35",
+      "orderId": 1035,
+      "amount": 414000,
+      "kind": "payment",
+      "createdAt": "2026-10-11T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay37",
+      "orderId": 1037,
+      "amount": 615000,
+      "kind": "payment",
+      "createdAt": "2026-10-01T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay38",
+      "orderId": 1038,
+      "amount": 279000,
+      "kind": "payment",
+      "createdAt": "2026-10-02T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay40",
+      "orderId": 1040,
+      "amount": 1828000,
+      "kind": "payment",
+      "createdAt": "2026-10-04T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay41",
+      "orderId": 1041,
+      "amount": 1629000,
+      "kind": "payment",
+      "createdAt": "2026-10-05T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay42",
+      "orderId": 1042,
+      "amount": 1229000,
+      "kind": "payment",
+      "createdAt": "2026-10-06T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay43",
+      "orderId": 1043,
+      "amount": 964500,
+      "kind": "payment",
+      "createdAt": "2026-10-07T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay45",
+      "orderId": 1045,
+      "amount": 474000,
+      "kind": "payment",
+      "createdAt": "2026-10-09T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay46",
+      "orderId": 1046,
+      "amount": 159000,
+      "kind": "payment",
+      "createdAt": "2026-10-10T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    },
+    {
+      "id": "pay48",
+      "orderId": 1048,
+      "amount": 500000,
+      "kind": "payment",
+      "createdAt": "2026-10-12T11:00:00",
+      "method": "Карта",
+      "note": "Демонстрационный платёж"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Подтвердить состав заказа",
+      "orderId": 1048,
+      "customerId": "c1",
+      "managerId": "m1",
+      "due": "2026-10-12",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "id": "t2",
+      "title": "Уточнить время доставки",
+      "orderId": 1046,
+      "customerId": "c14",
+      "managerId": "m2",
+      "due": "2026-10-11",
+      "priority": "high",
+      "done": false
+    },
+    {
+      "id": "t3",
+      "title": "Подготовить заказ к отправке",
+      "orderId": 1043,
+      "customerId": "c11",
+      "managerId": "m4",
+      "due": "2026-10-12",
+      "priority": "normal",
+      "done": false
+    },
+    {
+      "id": "t4",
+      "title": "Проверить оплату",
+      "orderId": 1045,
+      "customerId": "c13",
+      "managerId": "m1",
+      "due": "2026-10-13",
+      "priority": "normal",
+      "done": false
+    },
+    {
+      "id": "t5",
+      "title": "Согласовать повторный заказ",
+      "customerId": "c1",
+      "managerId": "m1",
+      "due": "2026-10-14",
+      "priority": "normal",
+      "done": false
+    },
+    {
+      "id": "t6",
+      "title": "Проверить контактные данные",
+      "customerId": "c7",
+      "managerId": "m3",
+      "due": "2026-10-10",
+      "priority": "normal",
+      "done": true
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg1",
+      "customerId": "c1",
+      "orderId": 1048,
+      "managerId": "m1",
+      "channel": "Email",
+      "direction": "in",
+      "body": "Здравствуйте! Подскажите, можно доставить заказ завтра после 15:00?",
+      "subject": "Доставка заказа #1048",
+      "createdAt": "2026-10-12T10:45:00",
+      "status": "received",
+      "unread": true
+    },
+    {
+      "id": "msg2",
+      "customerId": "c1",
+      "orderId": 1048,
+      "managerId": "m1",
+      "channel": "Email",
+      "direction": "out",
+      "body": "Мария, здравствуйте! Проверяю доступное время доставки и вернусь с ответом.",
+      "subject": "Доставка заказа #1048",
+      "createdAt": "2026-10-12T10:48:00",
+      "status": "draft",
+      "unread": false
+    },
+    {
+      "id": "msg3",
+      "customerId": "c14",
+      "orderId": 1046,
+      "managerId": "m2",
+      "channel": "SMS",
+      "direction": "in",
+      "body": "Когда приедет заказ?",
+      "subject": "Вопрос по доставке",
+      "createdAt": "2026-10-12T09:20:00",
+      "status": "received",
+      "unread": true
+    },
+    {
+      "id": "msg4",
+      "customerId": "c11",
+      "orderId": 1043,
+      "managerId": "m3",
+      "channel": "Чат",
+      "direction": "in",
+      "body": "Спасибо, оплату отправила.",
+      "subject": "Оплата заказа",
+      "createdAt": "2026-10-12T09:10:00",
+      "status": "received",
+      "unread": false
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl1",
+      "name": "Подтверждение заказа",
+      "channel": "Email",
+      "body": "Здравствуйте! Заказ принят в работу. Уточним удобное время доставки."
+    },
+    {
+      "id": "tpl2",
+      "name": "Заказ отправлен",
+      "channel": "SMS",
+      "body": "Ваш заказ передан в доставку. Спасибо, что выбрали наш магазин!"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "name": "Задача по новому заказу",
+      "condition": "new-order",
+      "action": "create-task",
+      "enabled": true,
+      "managerId": "m1",
+      "hours": 24
+    },
+    {
+      "id": "r2",
+      "name": "Контроль низкого остатка",
+      "condition": "low-stock",
+      "action": "create-task",
+      "enabled": false,
+      "managerId": "m4",
+      "hours": 24
+    }
+  ],
+  "runs": [],
+  "events": [
+    {
+      "id": "e1001",
+      "entity": "order",
+      "entityId": 1001,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-17T10:30:00"
+    },
+    {
+      "id": "e1002",
+      "entity": "order",
+      "entityId": 1002,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-18T10:30:00"
+    },
+    {
+      "id": "e1003",
+      "entity": "order",
+      "entityId": 1003,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-19T10:30:00"
+    },
+    {
+      "id": "e1004",
+      "entity": "order",
+      "entityId": 1004,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-20T10:30:00"
+    },
+    {
+      "id": "e1005",
+      "entity": "order",
+      "entityId": 1005,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-21T10:30:00"
+    },
+    {
+      "id": "e1006",
+      "entity": "order",
+      "entityId": 1006,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-22T10:30:00"
+    },
+    {
+      "id": "e1007",
+      "entity": "order",
+      "entityId": 1007,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-23T10:30:00"
+    },
+    {
+      "id": "e1008",
+      "entity": "order",
+      "entityId": 1008,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-24T10:30:00"
+    },
+    {
+      "id": "e1009",
+      "entity": "order",
+      "entityId": 1009,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-25T10:30:00"
+    },
+    {
+      "id": "e1010",
+      "entity": "order",
+      "entityId": 1010,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-26T10:30:00"
+    },
+    {
+      "id": "e1011",
+      "entity": "order",
+      "entityId": 1011,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-27T10:30:00"
+    },
+    {
+      "id": "e1012",
+      "entity": "order",
+      "entityId": 1012,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-09-28T10:30:00"
+    },
+    {
+      "id": "e1013",
+      "entity": "order",
+      "entityId": 1013,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-01T10:30:00"
+    },
+    {
+      "id": "e1014",
+      "entity": "order",
+      "entityId": 1014,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-02T10:30:00"
+    },
+    {
+      "id": "e1015",
+      "entity": "order",
+      "entityId": 1015,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-03T10:30:00"
+    },
+    {
+      "id": "e1016",
+      "entity": "order",
+      "entityId": 1016,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-04T10:30:00"
+    },
+    {
+      "id": "e1017",
+      "entity": "order",
+      "entityId": 1017,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-05T10:30:00"
+    },
+    {
+      "id": "e1018",
+      "entity": "order",
+      "entityId": 1018,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-06T10:30:00"
+    },
+    {
+      "id": "e1019",
+      "entity": "order",
+      "entityId": 1019,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-07T10:30:00"
+    },
+    {
+      "id": "e1020",
+      "entity": "order",
+      "entityId": 1020,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-08T10:30:00"
+    },
+    {
+      "id": "e1021",
+      "entity": "order",
+      "entityId": 1021,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-09T10:30:00"
+    },
+    {
+      "id": "e1022",
+      "entity": "order",
+      "entityId": 1022,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-10T10:30:00"
+    },
+    {
+      "id": "e1023",
+      "entity": "order",
+      "entityId": 1023,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-11T10:30:00"
+    },
+    {
+      "id": "e1024",
+      "entity": "order",
+      "entityId": 1024,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-12T10:30:00"
+    },
+    {
+      "id": "e1025",
+      "entity": "order",
+      "entityId": 1025,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-01T10:30:00"
+    },
+    {
+      "id": "e1026",
+      "entity": "order",
+      "entityId": 1026,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-02T10:30:00"
+    },
+    {
+      "id": "e1027",
+      "entity": "order",
+      "entityId": 1027,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-03T10:30:00"
+    },
+    {
+      "id": "e1028",
+      "entity": "order",
+      "entityId": 1028,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-04T10:30:00"
+    },
+    {
+      "id": "e1029",
+      "entity": "order",
+      "entityId": 1029,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-05T10:30:00"
+    },
+    {
+      "id": "e1030",
+      "entity": "order",
+      "entityId": 1030,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-06T10:30:00"
+    },
+    {
+      "id": "e1031",
+      "entity": "order",
+      "entityId": 1031,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-07T10:30:00"
+    },
+    {
+      "id": "e1032",
+      "entity": "order",
+      "entityId": 1032,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-08T10:30:00"
+    },
+    {
+      "id": "e1033",
+      "entity": "order",
+      "entityId": 1033,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-09T10:30:00"
+    },
+    {
+      "id": "e1034",
+      "entity": "order",
+      "entityId": 1034,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-10T10:30:00"
+    },
+    {
+      "id": "e1035",
+      "entity": "order",
+      "entityId": 1035,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-11T10:30:00"
+    },
+    {
+      "id": "e1036",
+      "entity": "order",
+      "entityId": 1036,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-12T10:30:00"
+    },
+    {
+      "id": "e1037",
+      "entity": "order",
+      "entityId": 1037,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-01T10:30:00"
+    },
+    {
+      "id": "e1038",
+      "entity": "order",
+      "entityId": 1038,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-02T10:30:00"
+    },
+    {
+      "id": "e1039",
+      "entity": "order",
+      "entityId": 1039,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-03T10:30:00"
+    },
+    {
+      "id": "e1040",
+      "entity": "order",
+      "entityId": 1040,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-04T10:30:00"
+    },
+    {
+      "id": "e1041",
+      "entity": "order",
+      "entityId": 1041,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-05T10:30:00"
+    },
+    {
+      "id": "e1042",
+      "entity": "order",
+      "entityId": 1042,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-06T10:30:00"
+    },
+    {
+      "id": "e1043",
+      "entity": "order",
+      "entityId": 1043,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-07T10:30:00"
+    },
+    {
+      "id": "e1044",
+      "entity": "order",
+      "entityId": 1044,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-08T10:30:00"
+    },
+    {
+      "id": "e1045",
+      "entity": "order",
+      "entityId": 1045,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-09T10:30:00"
+    },
+    {
+      "id": "e1046",
+      "entity": "order",
+      "entityId": 1046,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-10T10:30:00"
+    },
+    {
+      "id": "e1047",
+      "entity": "order",
+      "entityId": 1047,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-11T10:30:00"
+    },
+    {
+      "id": "e1048",
+      "entity": "order",
+      "entityId": 1048,
+      "actor": "Система",
+      "kind": "created",
+      "text": "Заказ создан в демонстрационном наборе",
+      "createdAt": "2026-10-12T10:42:00"
+    }
+  ],
+  "movements": [],
+  "notifications": [],
+  "directories": {
+    "categories": [
+      "Автомобили",
+      "Аксессуары",
+      "Катера",
+      "Квадрокоптеры"
+    ],
+    "brands": [
+      "Double Eagle",
+      "Gens Ace",
+      "WPL",
+      "WLtoys",
+      "MJX",
+      "SkyRC",
+      "FlySky"
+    ],
+    "counterparties": [
+      "RC Distribution",
+      "Модели и комплектующие"
+    ]
+  },
+  "settings": {
+    "workspace": "4sales / Магазин",
+    "density": "comfortable",
+    "role": "manager"
+  },
+  "savedViews": [],
+  "processedRules": []
+}

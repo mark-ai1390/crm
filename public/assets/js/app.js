@@ -1,5 +1,6 @@
 import {CHANNELS,MANAGERS,SNAPSHOT,formatMoney,formatNumber,formatChange,getSummary,getChannels,getRevenuePeriod,getOrderMonth,getOrderTrend,createSummaryCsv,sum} from './dashboard-data.js';
 import {initSidebar} from './sidebar.js';
+import {initCRM} from './crm.js';
 
 const $=selector=>document.querySelector(selector);
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -113,10 +114,10 @@ function openInsights(){
   openDialog('Разбор показателей','<span class="demo-tag">Демонстрационный разбор</span><p>Сводка по тестовым данным CRM. Внешний AI не подключён.</p><article class="insight highlight"><h3>Сайт приносит '+share+'% выручки</h3><p>'+escape(formatMoney(top.revenue))+' и '+top.orders+' заказов за май. Это ведущий канал по объёму продаж.</p></article><article class="insight"><h3>Чаты требуют внимания</h3><p>Канал сейчас неактивен. В отчёте — 72 заказа и 218 900 ₽. Проверьте подключение перед новой кампанией.</p></article><article class="insight"><h3>Марк выполнил дневной план</h3><p>'+escape(formatMoney(MANAGERS[0].sales))+' — 100% плана. Лидер команды по показателям за 21 мая.</p></article>',{drawer:true});
 }
 function openProfile(){
-  openDialog('Профиль','<div class="profile-card"><span class="avatar" data-initials="МС" role="img" aria-label="Марк Сангинов"><span class="presence"></span></span><div><strong>Марк Сангинов</strong><p>Владелец · 4sales</p></div></div><dl class="profile-details"><dt>Статус</dt><dd>В сети</dd><dt>Рабочее пространство</dt><dd>4sales CRM</dd><dt>Режим</dt><dd>Демонстрация</dd><dt>В работе</dt><dd>12 заказов</dd></dl><p style="margin-top:20px">Этот проект использует тестовые данные. Реальные аккаунты и платежи не подключены.</p>');
+  openDialog('Профиль','<div class="profile-card"><span class="avatar"><span class="legacy-initials" aria-hidden="true">МС</span><span class="presence"></span></span><div><strong>Марк Сангинов</strong><p>Владелец · 4sales</p></div></div><dl class="profile-details"><dt>Статус</dt><dd>В сети</dd><dt>Рабочее пространство</dt><dd>4sales CRM</dd><dt>Режим</dt><dd>Демонстрация</dd><dt>В работе</dt><dd>12 заказов</dd></dl><p style="margin-top:20px">Этот проект использует тестовые данные. Реальные аккаунты и платежи не подключены.</p>');
 }
 const modules={analytics:'Аналитика',orders:'Заказы',clients:'Клиенты',communications:'Коммуникации',products:'Товары',groups:'Группы товаров',brands:'Бренды',warehouses:'Склады','write-offs':'Списания',counterparties:'Контрагенты',receipts:'Оприходования',managers:'Менеджеры',chats:'Чаты',calendar:'Календарь',tasks:'Задачи',settings:'Настройки'};
-function openModule(key){openDialog(modules[key]||'Раздел','<span class="demo-tag">Демоверсия</span><p>Этот раздел ещё не доступен в демонстрации. Сейчас можно изучить дашборд: выручку, каналы продаж и результаты команды.</p><button class="button button-primary" type="button" data-close-dialog>Вернуться к дашборду</button>');}
+function openModule(key){if(crm.go(key))return;openDialog(modules[key]||'Раздел','<span class="demo-tag">Демоверсия</span><p>Этот раздел ещё не доступен в демонстрации. Сейчас можно изучить дашборд: выручку, каналы продаж и результаты команды.</p><button class="button button-primary" type="button" data-close-dialog>Вернуться к дашборду</button>');}
 document.addEventListener('click',event=>{
   const moduleButton=event.target.closest('[data-module]');if(moduleButton){openModule(moduleButton.dataset.module);return;}
   const panelButton=event.target.closest('[data-panel]');if(panelButton){({notifications:openNotifications,insights:openInsights,profile:openProfile})[panelButton.dataset.panel]?.();return;}
@@ -127,3 +128,5 @@ document.addEventListener('click',event=>{
 });
 
 renderSummary();renderBarChart();renderOrders();resizeTrend();
+
+const crm=initCRM({openDialog,showToast,sidebar});

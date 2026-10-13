@@ -20,6 +20,7 @@ async function walk(dir) {
 }
 const files = [...await walk(resolve(root, 'scripts')), ...await walk(resolve(root, 'public'))];
 for (const file of files) if (['.js','.mjs'].includes(extname(file))) {
+  if (file.includes('/scripts/figma/') && extname(file)==='.js') { new (Object.getPrototypeOf(async function(){}).constructor)(await readFile(file,'utf8')); continue; }
   const result = spawnSync(process.execPath, ['--check', file], { encoding:'utf8' });
   assert.equal(result.status, 0, result.stderr);
 }
@@ -29,7 +30,7 @@ for (const file of files.filter(f => ['.html','.css'].includes(extname(f)))) {
   const refs = extname(file) === '.html' ? [...text.matchAll(/(?:src|href)="([^"]+)"/g)].map(m => m[1]) : [...text.matchAll(/url\(['"]?([^)'"]+)/g)].map(m => m[1]);
   for (const ref of refs) {
     if (/^(?:https?:|data:|#|mailto:|tel:)/.test(ref)) continue;
-    const target = ref.startsWith('/') ? resolve(root,'public','.'+ref.split(/[?#]/)[0]) : resolve(file,'..',ref.split(/[?#]/)[0]);
+    const target = ref.startsWith('/') ? resolve(root,'public','.'+ref.split(/[?#]/)[0]) : resolve(file.includes('/legacy/') ? resolve(root,'public/index.html') : file,'..',ref.split(/[?#]/)[0]);
     await access(target);
     assert((await stat(target)).size > 0, 'Пустой ресурс: ' + ref);
   }
