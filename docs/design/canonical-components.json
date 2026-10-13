@@ -1068,5 +1068,157 @@
   "Profile": {
     "id": "784:34937",
     "variants": []
+  },
+  "TableRow": {
+    "id": "907:23483",
+    "name": "Table / Row",
+    "properties": {
+      "Slot#907:36": {
+        "type": "SLOT",
+        "description": "",
+        "preferredValues": []
+      },
+      "Record#3120:85": {
+        "type": "TEXT",
+        "defaultValue": "#1048"
+      },
+      "Customer#3120:88": {
+        "type": "TEXT",
+        "defaultValue": "Мария Савина"
+      },
+      "Status#3120:91": {
+        "type": "TEXT",
+        "defaultValue": "Подтверждён"
+      },
+      "Payment#3120:94": {
+        "type": "TEXT",
+        "defaultValue": "Частично оплачен"
+      },
+      "Manager#3120:97": {
+        "type": "TEXT",
+        "defaultValue": "Марк Сангинов"
+      },
+      "Amount#3120:100": {
+        "type": "TEXT",
+        "defaultValue": "15 190 ₽"
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "Tables Row",
+        "variantOptions": [
+          "Tables Row",
+          "Tables Row - active",
+          "Sales"
+        ]
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Selected",
+          "Hover"
+        ]
+      },
+      "Density": {
+        "type": "VARIANT",
+        "defaultValue": "Comfortable",
+        "variantOptions": [
+          "Comfortable",
+          "Compact"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "907:23413",
+        "name": "type=Tables Row, State=Default, Density=Comfortable"
+      },
+      {
+        "id": "907:23414",
+        "name": "type=Tables Row - active, State=Selected, Density=Comfortable"
+      },
+      {
+        "id": "3120:20650",
+        "name": "type=Sales, State=Default, Density=Comfortable"
+      },
+      {
+        "id": "3120:20678",
+        "name": "type=Sales, State=Default, Density=Compact"
+      },
+      {
+        "id": "3120:20706",
+        "name": "type=Sales, State=Hover, Density=Comfortable"
+      },
+      {
+        "id": "3120:20734",
+        "name": "type=Sales, State=Hover, Density=Compact"
+      },
+      {
+        "id": "3120:20762",
+        "name": "type=Sales, State=Selected, Density=Comfortable"
+      },
+      {
+        "id": "3120:20794",
+        "name": "type=Sales, State=Selected, Density=Compact"
+      }
+    ]
+  },
+  "KPIOrders": {
+    "id": "1466:31843",
+    "name": "KPI / orders",
+    "properties": {
+      "Title#3065:191": {
+        "type": "TEXT",
+        "defaultValue": "Показатель"
+      },
+      "Value#3065:192": {
+        "type": "TEXT",
+        "defaultValue": "0"
+      },
+      "Description#3065:193": {
+        "type": "TEXT",
+        "defaultValue": "За выбранный период"
+      }
+    },
+    "variants": []
+  },
+  "KPIWork": {
+    "id": "1466:31844",
+    "name": "KPI / work",
+    "properties": {
+      "Title#3065:194": {
+        "type": "TEXT",
+        "defaultValue": "Показатель"
+      },
+      "Value#3065:195": {
+        "type": "TEXT",
+        "defaultValue": "0"
+      },
+      "Description#3065:196": {
+        "type": "TEXT",
+        "defaultValue": "За выбранный период"
+      }
+    },
+    "variants": []
+  },
+  "KPI": {
+    "id": "1466:31845",
+    "name": "KPI / revenue",
+    "properties": {
+      "Title#3065:197": {
+        "type": "TEXT",
+        "defaultValue": "Показатель"
+      },
+      "Value#3065:198": {
+        "type": "TEXT",
+        "defaultValue": "0"
+      },
+      "Description#3065:199": {
+        "type": "TEXT",
+        "defaultValue": "За выбранный период"
+      }
+    },
+    "variants": []
   }
 }

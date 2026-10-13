@@ -48,9 +48,10 @@
         "Просмотреть все состояния, проверить переходы с согласованными записями"
       ],
       "evidence": [
-        "2026-10-12: docs/01–05, Figma state ledger; npm run check и 34 npm test проходят."
+        "2026-10-12: docs/01–05, Figma state ledger; npm run check и 34 npm test проходят.",
+        "2026-10-13: основной дашборд, авторские KPI и Table Row объединены; docs/design/dashboard-table-reconciliation.json; 36 тестов проходят."
       ],
-      "notes": "Браузерная приёмка не выполнена; подробности в docs/04-verification.md."
+      "notes": "Адаптивная композиция, полная синхронизация токенов и браузерная приёмка остаются в работе."
     },
     {
       "id": "crm-v2-003",
@@ -144,7 +145,8 @@
         "Проверить карточку менеджера и нагрузку"
       ],
       "evidence": [
-        "2026-10-12: docs/01–05, Figma state ledger; npm run check и 34 npm test проходят."
+        "2026-10-12: docs/01–05, Figma state ledger; npm run check и 34 npm test проходят.",
+        "2026-10-13: основной дашборд, авторские KPI и Table Row объединены; docs/design/dashboard-table-reconciliation.json; 36 тестов проходят."
       ],
       "notes": "Браузерная приёмка не выполнена; подробности в docs/04-verification.md."
     },

@@ -2,7 +2,7 @@
   "runId": "4sales-v2-20261012",
   "fileKey": "qgfY24y8o8Z4Xa3ZsmWq8N",
   "phase": "author_system_reconciliation",
-  "sourceSiteCommit": "cecb9bcce66b226adc3b7fd6a613540dd21a3a39",
+  "sourceSiteCommit": "5a1c4161e83100151f224bcf691d06537463b97c",
   "githubBranch": "codex/crm-product-redesign-2026-10-12",
   "inventory": "docs/03-screen-and-delivery-plan.md",
   "acceptance": {
@@ -61,8 +61,8 @@
     "Avatar": "2:30567",
     "NavItem": "394:15508",
     "Tab": "2:30684",
-    "TableRow": "3019:18910",
-    "KPI": "3019:18919",
+    "TableRow": "907:23483",
+    "KPI": "1466:31845",
     "Card": "3019:18920",
     "Modal": "3019:18923",
     "Drawer": "3019:18927",
@@ -73,7 +73,9 @@
     "Tooltip": "3019:18943",
     "Skeleton": "3019:18945",
     "Sidebar": "394:15593",
-    "Profile": "784:34937"
+    "Profile": "784:34937",
+    "KPIOrders": "1466:31843",
+    "KPIWork": "1466:31844"
   },
   "screens": {
     "overview": "3022:18682",
@@ -499,21 +501,19 @@
       "Active=No": "2:30685",
       "Active=Yes": "2:30688"
     },
-    "TableRow": {
-      "State=Default, Density=Comfortable": "3019:18868",
-      "State=Default, Density=Compact": "3019:18875",
-      "State=Hover, Density=Comfortable": "3019:18882",
-      "State=Hover, Density=Compact": "3019:18889",
-      "State=Selected, Density=Comfortable": "3019:18896",
-      "State=Selected, Density=Compact": "3019:18903"
-    },
-    "KPI": {
-      "Tone=Default": "3019:18911",
-      "Tone=Accent": "3019:18915"
-    },
     "Sidebar": {
       "Type=side-menu": "394:15594",
       "Type=side-menu-collapsed": "394:15628"
+    },
+    "TableRow": {
+      "type=Tables Row, State=Default, Density=Comfortable": "907:23413",
+      "type=Tables Row - active, State=Selected, Density=Comfortable": "907:23414",
+      "type=Sales, State=Default, Density=Comfortable": "3120:20650",
+      "type=Sales, State=Default, Density=Compact": "3120:20678",
+      "type=Sales, State=Hover, Density=Comfortable": "3120:20706",
+      "type=Sales, State=Hover, Density=Compact": "3120:20734",
+      "type=Sales, State=Selected, Density=Comfortable": "3120:20762",
+      "type=Sales, State=Selected, Density=Compact": "3120:20794"
     }
   },
   "componentCounts": {
@@ -558,12 +558,12 @@
   "researchRoot": "3034:18682",
   "verification": {
     "productFrames": 70,
-    "reactions": 1055,
+    "reactions": 1094,
     "unknownTargets": 0,
     "flowStartingPoints": 5,
     "font": "Inter",
     "rasterInterfaceLayers": 0,
-    "webAutomatedTests": 34,
+    "webAutomatedTests": 36,
     "browserVerified": false,
     "codeConnect": "blocked_by_figma_plan",
     "visualReview": "representative_families",
@@ -575,14 +575,25 @@
     "controls": "seven duplicate families removed",
     "sidebar": "46 instances migrated; original Profile; 20 px bottom inset; three duplicate sets and 17 copied icons removed",
     "prototype": {
-      "reactions": 1055,
+      "reactions": 1094,
       "invalidTargets": 0
     },
     "remaining": [
-      "TableRow/KPI consolidation",
-      "Dashboard composition",
+      "Apply revised dashboard composition to adaptive Figma screens",
       "Complete token and icon sync in web",
+      "Review procedural product tables against canonical Table Row",
       "Browser verification"
-    ]
+    ],
+    "tableRow": "Original 907:23483 extended with six Sales states; legacy IDs preserved; duplicate removed after seven-page audit",
+    "kpi": "14 instances use original 1466:31843/31844/31845; duplicate removed after seven-page audit",
+    "dashboard": {
+      "screen": "3022:18682",
+      "lower": "3088:29759",
+      "channels": "3088:29760",
+      "recentOrders": "3022:18928",
+      "visualReview": "passed at 1440x960 after chart height fix",
+      "scope": "main overview only; adaptive composition pending"
+    },
+    "evidence": "docs/design/dashboard-table-reconciliation.json"
   }
 }
