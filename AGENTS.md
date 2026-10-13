@@ -4,7 +4,7 @@
 
 ## Источники и состояние
 - Актуальный план: docs/01-product-audit.md, docs/02-product-blueprint.md, docs/03-screen-and-delivery-plan.md. В инвентаре S01–S41 зафиксирован конечный объём демонстрации.
-- Редактируем только копию Figma qgfY24y8o8Z4Xa3ZsmWq8N. Новые страницы начинаются с `4sales v2 /`. Оригинал ufCGdzahHmwbLQWYjeAzNp и исходные страницы analysis/design не изменять.
+- Редактируем только копию Figma qgfY24y8o8Z4Xa3ZsmWq8N. Оригинал ufCGdzahHmwbLQWYjeAzNp не изменять. Уточнение Марка от 13 октября: развивать исходные Variables и мастер-компоненты в копии, сохраняя одну систему. Разрешены обоснованные изменения и удаление дублей после проверки зависимостей.
 - Идентификаторы макетов, компонентов и переменных: docs/design/state.json. Согласованный демонстрационный набор: public/assets/v2/seed.js и docs/design/demo-snapshot.json.
 - crm-implementation-plan.md — исторический план от 4 октября 2026. Тогда нового кода ещё не было, макеты и план уже были готовы. Сейчас код создан; актуальный статус — в claude-progress.md и feature_list.json.
 

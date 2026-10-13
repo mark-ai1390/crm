@@ -1,0 +1,1072 @@
+{
+  "Button": {
+    "id": "88:15621",
+    "variants": [
+      {
+        "id": "88:15622",
+        "name": "Size=XS, Type=Primary, State=Default"
+      },
+      {
+        "id": "88:15629",
+        "name": "Size=S, Type=Primary, State=Default"
+      },
+      {
+        "id": "88:15636",
+        "name": "Size=M, Type=Primary, State=Default"
+      },
+      {
+        "id": "88:15643",
+        "name": "Size=L, Type=Primary, State=Default"
+      },
+      {
+        "id": "88:15650",
+        "name": "Size=XS, Type=Primary, State=Hover"
+      },
+      {
+        "id": "88:15657",
+        "name": "Size=S, Type=Primary, State=Hover"
+      },
+      {
+        "id": "88:15664",
+        "name": "Size=M, Type=Primary, State=Hover"
+      },
+      {
+        "id": "88:15671",
+        "name": "Size=L, Type=Primary, State=Hover"
+      },
+      {
+        "id": "88:15678",
+        "name": "Size=XS, Type=Primary, State=Press"
+      },
+      {
+        "id": "88:15685",
+        "name": "Size=S, Type=Primary, State=Press"
+      },
+      {
+        "id": "88:15692",
+        "name": "Size=M, Type=Primary, State=Press"
+      },
+      {
+        "id": "88:15699",
+        "name": "Size=L, Type=Primary, State=Press"
+      },
+      {
+        "id": "88:15706",
+        "name": "Size=XS, Type=Primary, State=Disabled"
+      },
+      {
+        "id": "88:15713",
+        "name": "Size=S, Type=Primary, State=Disabled"
+      },
+      {
+        "id": "88:15720",
+        "name": "Size=M, Type=Primary, State=Disabled"
+      },
+      {
+        "id": "88:15727",
+        "name": "Size=L, Type=Primary, State=Disabled"
+      },
+      {
+        "id": "88:15734",
+        "name": "Size=XS, Type=Primary, State=Loading"
+      },
+      {
+        "id": "88:15738",
+        "name": "Size=S, Type=Primary, State=Loading"
+      },
+      {
+        "id": "88:15742",
+        "name": "Size=M, Type=Primary, State=Loading"
+      },
+      {
+        "id": "88:15746",
+        "name": "Size=L, Type=Primary, State=Loading"
+      },
+      {
+        "id": "88:15750",
+        "name": "Size=XS, Type=Secondary, State=Default"
+      },
+      {
+        "id": "88:15757",
+        "name": "Size=XS, Type=Inverted, State=Default"
+      },
+      {
+        "id": "88:15764",
+        "name": "Size=S, Type=Secondary, State=Default"
+      },
+      {
+        "id": "88:15771",
+        "name": "Size=S, Type=Inverted, State=Default"
+      },
+      {
+        "id": "88:15778",
+        "name": "Size=M, Type=Secondary, State=Default"
+      },
+      {
+        "id": "88:15785",
+        "name": "Size=M, Type=Inverted, State=Default"
+      },
+      {
+        "id": "88:15792",
+        "name": "Size=L, Type=Secondary, State=Default"
+      },
+      {
+        "id": "88:15799",
+        "name": "Size=L, Type=Inverted, State=Default"
+      },
+      {
+        "id": "88:15806",
+        "name": "Size=XS, Type=Secondary, State=Hover"
+      },
+      {
+        "id": "88:15813",
+        "name": "Size=XS, Type=Inverted, State=Hover"
+      },
+      {
+        "id": "88:15820",
+        "name": "Size=S, Type=Secondary, State=Hover"
+      },
+      {
+        "id": "88:15827",
+        "name": "Size=S, Type=Inverted, State=Hover"
+      },
+      {
+        "id": "88:15834",
+        "name": "Size=M, Type=Secondary, State=Hover"
+      },
+      {
+        "id": "88:15841",
+        "name": "Size=M, Type=Inverted, State=Hover"
+      },
+      {
+        "id": "88:15848",
+        "name": "Size=L, Type=Secondary, State=Hover"
+      },
+      {
+        "id": "88:15855",
+        "name": "Size=L, Type=Inverted, State=Hover"
+      },
+      {
+        "id": "88:15862",
+        "name": "Size=XS, Type=Secondary, State=Press"
+      },
+      {
+        "id": "88:15869",
+        "name": "Size=XS, Type=Inverted, State=Press"
+      },
+      {
+        "id": "88:15876",
+        "name": "Size=S, Type=Secondary, State=Press"
+      },
+      {
+        "id": "88:15883",
+        "name": "Size=S, Type=Inverted, State=Press"
+      },
+      {
+        "id": "88:15890",
+        "name": "Size=M, Type=Secondary, State=Press"
+      },
+      {
+        "id": "88:15897",
+        "name": "Size=M, Type=Inverted, State=Press"
+      },
+      {
+        "id": "88:15904",
+        "name": "Size=L, Type=Secondary, State=Press"
+      },
+      {
+        "id": "88:15911",
+        "name": "Size=L, Type=Inverted, State=Press"
+      },
+      {
+        "id": "88:15918",
+        "name": "Size=XS, Type=Secondary, State=Disabled"
+      },
+      {
+        "id": "88:15925",
+        "name": "Size=XS, Type=Inverted, State=Disabled"
+      },
+      {
+        "id": "88:15932",
+        "name": "Size=S, Type=Secondary, State=Disabled"
+      },
+      {
+        "id": "88:15939",
+        "name": "Size=S, Type=Inverted, State=Disabled"
+      },
+      {
+        "id": "88:15946",
+        "name": "Size=M, Type=Secondary, State=Disabled"
+      },
+      {
+        "id": "88:15953",
+        "name": "Size=M, Type=Inverted, State=Disabled"
+      },
+      {
+        "id": "88:15960",
+        "name": "Size=L, Type=Secondary, State=Disabled"
+      },
+      {
+        "id": "88:15967",
+        "name": "Size=L, Type=Inverted, State=Disabled"
+      },
+      {
+        "id": "88:15974",
+        "name": "Size=XS, Type=Secondary, State=Loading"
+      },
+      {
+        "id": "88:15978",
+        "name": "Size=XS, Type=Inverted, State=Loading"
+      },
+      {
+        "id": "88:15982",
+        "name": "Size=S, Type=Secondary, State=Loading"
+      },
+      {
+        "id": "88:15986",
+        "name": "Size=S, Type=Inverted, State=Loading"
+      },
+      {
+        "id": "88:15990",
+        "name": "Size=M, Type=Secondary, State=Loading"
+      },
+      {
+        "id": "88:15994",
+        "name": "Size=M, Type=Inverted, State=Loading"
+      },
+      {
+        "id": "88:15998",
+        "name": "Size=L, Type=Secondary, State=Loading"
+      },
+      {
+        "id": "88:16002",
+        "name": "Size=L, Type=Inverted, State=Loading"
+      },
+      {
+        "id": "88:16006",
+        "name": "Size=XS, Type=Ghost, State=Default"
+      },
+      {
+        "id": "901:10304",
+        "name": "Size=XS, Type=Critical, State=Default"
+      },
+      {
+        "id": "88:16013",
+        "name": "Size=S, Type=Ghost, State=Default"
+      },
+      {
+        "id": "901:10311",
+        "name": "Size=S, Type=Critical, State=Default"
+      },
+      {
+        "id": "88:16020",
+        "name": "Size=M, Type=Ghost, State=Default"
+      },
+      {
+        "id": "901:10318",
+        "name": "Size=M, Type=Critical, State=Default"
+      },
+      {
+        "id": "88:16027",
+        "name": "Size=L, Type=Ghost, State=Default"
+      },
+      {
+        "id": "901:10325",
+        "name": "Size=L, Type=Critical, State=Default"
+      },
+      {
+        "id": "88:16034",
+        "name": "Size=XS, Type=Ghost, State=Hover"
+      },
+      {
+        "id": "901:10332",
+        "name": "Size=XS, Type=Critical, State=Hover"
+      },
+      {
+        "id": "88:16041",
+        "name": "Size=S, Type=Ghost, State=Hover"
+      },
+      {
+        "id": "901:10339",
+        "name": "Size=S, Type=Critical, State=Hover"
+      },
+      {
+        "id": "88:16048",
+        "name": "Size=M, Type=Ghost, State=Hover"
+      },
+      {
+        "id": "901:10346",
+        "name": "Size=M, Type=Critical, State=Hover"
+      },
+      {
+        "id": "88:16055",
+        "name": "Size=L, Type=Ghost, State=Hover"
+      },
+      {
+        "id": "901:10353",
+        "name": "Size=L, Type=Critical, State=Hover"
+      },
+      {
+        "id": "88:16062",
+        "name": "Size=XS, Type=Ghost, State=Press"
+      },
+      {
+        "id": "901:10360",
+        "name": "Size=XS, Type=Critical, State=Press"
+      },
+      {
+        "id": "88:16069",
+        "name": "Size=S, Type=Ghost, State=Press"
+      },
+      {
+        "id": "901:10367",
+        "name": "Size=S, Type=Critical, State=Press"
+      },
+      {
+        "id": "88:16076",
+        "name": "Size=M, Type=Ghost, State=Press"
+      },
+      {
+        "id": "901:10374",
+        "name": "Size=M, Type=Critical, State=Press"
+      },
+      {
+        "id": "88:16083",
+        "name": "Size=L, Type=Ghost, State=Press"
+      },
+      {
+        "id": "901:10381",
+        "name": "Size=L, Type=Critical, State=Press"
+      },
+      {
+        "id": "88:16090",
+        "name": "Size=XS, Type=Ghost, State=Disabled"
+      },
+      {
+        "id": "901:10388",
+        "name": "Size=XS, Type=Critical, State=Disabled"
+      },
+      {
+        "id": "88:16097",
+        "name": "Size=S, Type=Ghost, State=Disabled"
+      },
+      {
+        "id": "901:10395",
+        "name": "Size=S, Type=Critical, State=Disabled"
+      },
+      {
+        "id": "88:16104",
+        "name": "Size=M, Type=Ghost, State=Disabled"
+      },
+      {
+        "id": "901:10402",
+        "name": "Size=M, Type=Critical, State=Disabled"
+      },
+      {
+        "id": "88:16111",
+        "name": "Size=L, Type=Ghost, State=Disabled"
+      },
+      {
+        "id": "901:10409",
+        "name": "Size=L, Type=Critical, State=Disabled"
+      },
+      {
+        "id": "88:16118",
+        "name": "Size=XS, Type=Ghost, State=Loading"
+      },
+      {
+        "id": "901:10416",
+        "name": "Size=XS, Type=Critical, State=Loading"
+      },
+      {
+        "id": "88:16122",
+        "name": "Size=S, Type=Ghost, State=Loading"
+      },
+      {
+        "id": "901:10420",
+        "name": "Size=S, Type=Critical, State=Loading"
+      },
+      {
+        "id": "88:16126",
+        "name": "Size=M, Type=Ghost, State=Loading"
+      },
+      {
+        "id": "901:10424",
+        "name": "Size=M, Type=Critical, State=Loading"
+      },
+      {
+        "id": "88:16130",
+        "name": "Size=L, Type=Ghost, State=Loading"
+      },
+      {
+        "id": "901:10428",
+        "name": "Size=L, Type=Critical, State=Loading"
+      },
+      {
+        "id": "3066:24538",
+        "name": "Size=S, Type=Primary, State=Focus"
+      },
+      {
+        "id": "3066:24547",
+        "name": "Size=S, Type=Secondary, State=Focus"
+      },
+      {
+        "id": "3066:24556",
+        "name": "Size=S, Type=Ghost, State=Focus"
+      },
+      {
+        "id": "3066:24565",
+        "name": "Size=S, Type=Critical, State=Focus"
+      }
+    ]
+  },
+  "IconButton": {
+    "id": "317:22945",
+    "variants": [
+      {
+        "id": "148:13368",
+        "name": "size=L, type=Secondary, state=Default"
+      },
+      {
+        "id": "148:13370",
+        "name": "size=L, type=Ghost, state=Default"
+      },
+      {
+        "id": "148:13372",
+        "name": "size=L, type=Secondary, state=Hover"
+      },
+      {
+        "id": "148:13374",
+        "name": "size=L, type=Ghost, state=Hover"
+      },
+      {
+        "id": "148:13376",
+        "name": "size=M, type=Secondary, state=Default"
+      },
+      {
+        "id": "148:13378",
+        "name": "size=M, type=Ghost, state=Default"
+      },
+      {
+        "id": "148:13380",
+        "name": "size=M, type=Secondary, state=Hover"
+      },
+      {
+        "id": "148:13382",
+        "name": "size=M, type=Ghost, state=Hover"
+      },
+      {
+        "id": "148:13384",
+        "name": "size=S, type=Secondary, state=Default"
+      },
+      {
+        "id": "148:13386",
+        "name": "size=S, type=Ghost, state=Default"
+      },
+      {
+        "id": "148:13388",
+        "name": "size=S, type=Secondary, state=Hover"
+      },
+      {
+        "id": "148:13390",
+        "name": "size=S, type=Ghost, state=Hover"
+      },
+      {
+        "id": "148:13392",
+        "name": "size=XS, type=Secondary, state=Default"
+      },
+      {
+        "id": "148:13394",
+        "name": "size=XS, type=Ghost, state=Default"
+      },
+      {
+        "id": "148:13396",
+        "name": "size=XS, type=Secondary, state=Hover"
+      },
+      {
+        "id": "148:13398",
+        "name": "size=XS, type=Ghost, state=Hover"
+      },
+      {
+        "id": "148:13400",
+        "name": "size=L, type=Primary, state=Default"
+      },
+      {
+        "id": "838:5736",
+        "name": "size=L, type=green, state=Default"
+      },
+      {
+        "id": "839:5768",
+        "name": "size=L, type=yellow, state=Default"
+      },
+      {
+        "id": "839:5804",
+        "name": "size=L, type=red, state=Default"
+      },
+      {
+        "id": "838:5752",
+        "name": "size=L, type=green, state=Hover"
+      },
+      {
+        "id": "839:5771",
+        "name": "size=L, type=yellow, state=Hover"
+      },
+      {
+        "id": "839:5807",
+        "name": "size=L, type=red, state=Hover"
+      },
+      {
+        "id": "148:13402",
+        "name": "size=M, type=Primary, state=Default"
+      },
+      {
+        "id": "838:5739",
+        "name": "size=M, type=green, state=Default"
+      },
+      {
+        "id": "839:5774",
+        "name": "size=M, type=yellow, state=Default"
+      },
+      {
+        "id": "839:5810",
+        "name": "size=M, type=red, state=Default"
+      },
+      {
+        "id": "838:5755",
+        "name": "size=M, type=green, state=Hover"
+      },
+      {
+        "id": "839:5777",
+        "name": "size=M, type=yellow, state=Hover"
+      },
+      {
+        "id": "839:5813",
+        "name": "size=M, type=red, state=Hover"
+      },
+      {
+        "id": "148:13404",
+        "name": "size=S, type=Primary, state=Default"
+      },
+      {
+        "id": "838:5742",
+        "name": "size=S, type=green, state=Default"
+      },
+      {
+        "id": "839:5780",
+        "name": "size=S, type=yellow, state=Default"
+      },
+      {
+        "id": "839:5816",
+        "name": "size=S, type=red, state=Default"
+      },
+      {
+        "id": "838:5758",
+        "name": "size=S, type=green, state=Hover"
+      },
+      {
+        "id": "839:5783",
+        "name": "size=S, type=yellow, state=Hover"
+      },
+      {
+        "id": "839:5819",
+        "name": "size=S, type=red, state=Hover"
+      },
+      {
+        "id": "148:13406",
+        "name": "size=XS, type=Primary, state=Default"
+      },
+      {
+        "id": "838:5745",
+        "name": "size=XS, type=green, state=Default"
+      },
+      {
+        "id": "839:5786",
+        "name": "size=XS, type=yellow, state=Default"
+      },
+      {
+        "id": "839:5822",
+        "name": "size=XS, type=red, state=Default"
+      },
+      {
+        "id": "838:5761",
+        "name": "size=XS, type=green, state=Hover"
+      },
+      {
+        "id": "839:5789",
+        "name": "size=XS, type=yellow, state=Hover"
+      },
+      {
+        "id": "839:5825",
+        "name": "size=XS, type=red, state=Hover"
+      },
+      {
+        "id": "148:13408",
+        "name": "size=L, type=Primary, state=Hover"
+      },
+      {
+        "id": "148:13410",
+        "name": "size=M, type=Primary, state=Hover"
+      },
+      {
+        "id": "148:13412",
+        "name": "size=S, type=Primary, state=Hover"
+      },
+      {
+        "id": "148:13414",
+        "name": "size=XS, type=Primary, state=Hover"
+      },
+      {
+        "id": "3066:24574",
+        "name": "size=M, type=Secondary, state=Focus"
+      },
+      {
+        "id": "3066:24579",
+        "name": "size=M, type=Secondary, state=Disabled"
+      }
+    ]
+  },
+  "Field": {
+    "id": "1311:21944",
+    "variants": [
+      {
+        "id": "1311:21945",
+        "name": "State=error"
+      },
+      {
+        "id": "1311:21955",
+        "name": "State=disable"
+      },
+      {
+        "id": "1311:21965",
+        "name": "State=hover-value"
+      },
+      {
+        "id": "1311:21975",
+        "name": "State=focus"
+      },
+      {
+        "id": "1311:21985",
+        "name": "State=hover"
+      },
+      {
+        "id": "1311:21995",
+        "name": "State=default"
+      }
+    ]
+  },
+  "Badge": {
+    "id": "2:30172",
+    "variants": [
+      {
+        "id": "2:30173",
+        "name": "Type=Outlined, Color=Blue, Size=Small"
+      },
+      {
+        "id": "2:30177",
+        "name": "Type=Outlined, Color=Blue, Size=Large"
+      },
+      {
+        "id": "2:30181",
+        "name": "Type=Outlined, Color=Yellow, Size=Small"
+      },
+      {
+        "id": "2:30185",
+        "name": "Type=Outlined, Color=Yellow, Size=Large"
+      },
+      {
+        "id": "2:30189",
+        "name": "Type=Outlined, Color=Purple, Size=Small"
+      },
+      {
+        "id": "2:30193",
+        "name": "Type=Outlined, Color=Purple, Size=Large"
+      },
+      {
+        "id": "2:30197",
+        "name": "Type=Outlined, Color=Red, Size=Small"
+      },
+      {
+        "id": "2:30201",
+        "name": "Type=Outlined, Color=Red, Size=Large"
+      },
+      {
+        "id": "2:30205",
+        "name": "Type=Outlined, Color=Orange, Size=Small"
+      },
+      {
+        "id": "2:30209",
+        "name": "Type=Outlined, Color=Grey, Size=Small"
+      },
+      {
+        "id": "2:30213",
+        "name": "Type=Outlined, Color=Orange, Size=Large"
+      },
+      {
+        "id": "2:30217",
+        "name": "Type=Outlined, Color=Grey, Size=Large"
+      },
+      {
+        "id": "2:30221",
+        "name": "Type=Contained, Color=Yellow, Size=Small"
+      },
+      {
+        "id": "2:30224",
+        "name": "Type=Contained, Color=Yellow, Size=Large"
+      },
+      {
+        "id": "2:30227",
+        "name": "Type=Contained, Color=Purple, Size=Small"
+      },
+      {
+        "id": "2:30230",
+        "name": "Type=Contained, Color=Purple, Size=Large"
+      },
+      {
+        "id": "2:30233",
+        "name": "Type=Contained, Color=Red, Size=Small"
+      },
+      {
+        "id": "2:30236",
+        "name": "Type=Contained, Color=Red, Size=Large"
+      },
+      {
+        "id": "2:30239",
+        "name": "Type=Contained, Color=Orange, Size=Small"
+      },
+      {
+        "id": "2:30242",
+        "name": "Type=Contained, Color=Grey, Size=Small"
+      },
+      {
+        "id": "2:30245",
+        "name": "Type=Contained, Color=Orange, Size=Large"
+      },
+      {
+        "id": "2:30248",
+        "name": "Type=Contained, Color=Grey, Size=Large"
+      },
+      {
+        "id": "2:30251",
+        "name": "Type=Contained, Color=Blue, Size=Small"
+      },
+      {
+        "id": "2:30254",
+        "name": "Type=Contained, Color=Blue, Size=Large"
+      },
+      {
+        "id": "2:30257",
+        "name": "Type=Contained, Color=Green, Size=Small"
+      },
+      {
+        "id": "2:30260",
+        "name": "Type=Contained, Color=Green, Size=Large"
+      },
+      {
+        "id": "2:30263",
+        "name": "Type=Outlined, Color=Green, Size=Small"
+      },
+      {
+        "id": "2:30267",
+        "name": "Type=Outlined, Color=Green, Size=Large"
+      }
+    ]
+  },
+  "Checkbox": {
+    "id": "2:30062",
+    "variants": [
+      {
+        "id": "2:30063",
+        "name": "Value=Unchecked, State=Default, Dark Mode=False"
+      },
+      {
+        "id": "2:30065",
+        "name": "Value=Unchecked, State=Disable, Dark Mode=False"
+      },
+      {
+        "id": "2:30067",
+        "name": "Value=Unchecked, State=Hover, Dark Mode=False"
+      },
+      {
+        "id": "2:30069",
+        "name": "Value=Indeterminate, State=Default, Dark Mode=False"
+      },
+      {
+        "id": "2:30074",
+        "name": "Value=Indeterminate, State=Disable, Dark Mode=False"
+      },
+      {
+        "id": "2:30079",
+        "name": "Value=Indeterminate, State=Hover, Dark Mode=False"
+      },
+      {
+        "id": "2:30084",
+        "name": "Value=Checked, State=Default, Dark Mode=False"
+      },
+      {
+        "id": "2:30089",
+        "name": "Value=Checked, State=Disable, Dark Mode=False"
+      },
+      {
+        "id": "2:30094",
+        "name": "Value=Checked, State=Hover, Dark Mode=False"
+      }
+    ]
+  },
+  "Switch": {
+    "id": "2:30143",
+    "variants": [
+      {
+        "id": "2:30144",
+        "name": "State=ON"
+      },
+      {
+        "id": "2:30147",
+        "name": "State=Default"
+      },
+      {
+        "id": "2:30150",
+        "name": "State=Disable"
+      }
+    ]
+  },
+  "Avatar": {
+    "id": "2:30567",
+    "variants": [
+      {
+        "id": "2:30568",
+        "name": "Size=40px, Status=Approved, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30571",
+        "name": "Size=40px, Status=Declined, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30574",
+        "name": "Size=40px, Status=Locked, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30577",
+        "name": "Size=24px, Status=Approved, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30580",
+        "name": "Size=24px, Status=Declined, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30583",
+        "name": "Size=24px, Status=Locked, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30586",
+        "name": "Size=32px, Status=Approved, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30589",
+        "name": "Size=32px, Status=Declined, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30592",
+        "name": "Size=32px, Status=Locked, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30595",
+        "name": "Size=40px, Status=None, Presence=Online, Type=Pictures"
+      },
+      {
+        "id": "2:30597",
+        "name": "Size=40px, Status=None, Presence=Busy, Type=Pictures"
+      },
+      {
+        "id": "2:30600",
+        "name": "Size=40px, Status=None, Presence=Focus, Type=Pictures"
+      },
+      {
+        "id": "2:30603",
+        "name": "Size=40px, Status=None, Presence=Offline, Type=Pictures"
+      },
+      {
+        "id": "2:30606",
+        "name": "Size=32px, Status=None, Presence=Online, Type=Pictures"
+      },
+      {
+        "id": "2:30608",
+        "name": "Size=32px, Status=None, Presence=Busy, Type=Pictures"
+      },
+      {
+        "id": "2:30611",
+        "name": "Size=32px, Status=None, Presence=Focus, Type=Pictures"
+      },
+      {
+        "id": "2:30614",
+        "name": "Size=32px, Status=None, Presence=Offline, Type=Pictures"
+      },
+      {
+        "id": "2:30617",
+        "name": "Size=24px, Status=None, Presence=Online, Type=Pictures"
+      },
+      {
+        "id": "2:30619",
+        "name": "Size=24px, Status=None, Presence=Busy, Type=Pictures"
+      },
+      {
+        "id": "2:30622",
+        "name": "Size=24px, Status=None, Presence=Focus, Type=Pictures"
+      },
+      {
+        "id": "2:30625",
+        "name": "Size=24px, Status=None, Presence=Offline, Type=Pictures"
+      },
+      {
+        "id": "2:30628",
+        "name": "Size=40px, Status=None, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30629",
+        "name": "Size=32px, Status=None, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30630",
+        "name": "Size=24px, Status=None, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30631",
+        "name": "Size=16px, Status=None, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30632",
+        "name": "Size=128px, Status=None, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30633",
+        "name": "Size=96px, Status=None, Presence=Online, Type=Pictures"
+      },
+      {
+        "id": "2:30635",
+        "name": "Size=96px, Status=None, Presence=Busy, Type=Pictures"
+      },
+      {
+        "id": "2:30638",
+        "name": "Size=96px, Status=None, Presence=Focus, Type=Pictures"
+      },
+      {
+        "id": "2:30641",
+        "name": "Size=96px, Status=None, Presence=Offline, Type=Pictures"
+      },
+      {
+        "id": "2:30644",
+        "name": "Size=96px, Status=Approved, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30647",
+        "name": "Size=96px, Status=Declined, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30650",
+        "name": "Size=96px, Status=Locked, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30653",
+        "name": "Size=96px, Status=None, Presence=None, Type=Pictures"
+      },
+      {
+        "id": "2:30654",
+        "name": "Size=128px, Status=None, Presence=None, Type=Placeholder"
+      },
+      {
+        "id": "2:30656",
+        "name": "Size=64px, Status=None, Presence=None, Type=Placeholder"
+      },
+      {
+        "id": "2:30658",
+        "name": "Size=40px, Status=None, Presence=None, Type=Placeholder"
+      },
+      {
+        "id": "2:30660",
+        "name": "Size=32px, Status=None, Presence=None, Type=Placeholder"
+      },
+      {
+        "id": "2:30662",
+        "name": "Size=24px, Status=None, Presence=None, Type=Placeholder"
+      },
+      {
+        "id": "2:30664",
+        "name": "Size=16px, Status=None, Presence=None, Type=Placeholder"
+      },
+      {
+        "id": "3065:24581",
+        "name": "Size=32px, Status=None, Presence=None, Type=Initials"
+      },
+      {
+        "id": "3065:24584",
+        "name": "Size=40px, Status=None, Presence=None, Type=Initials"
+      }
+    ]
+  },
+  "NavItem": {
+    "id": "394:15508",
+    "variants": [
+      {
+        "id": "394:15509",
+        "name": "State=on, enable=off, Mode=Expanded"
+      },
+      {
+        "id": "394:15515",
+        "name": "State=off, enable=off, Mode=Expanded"
+      },
+      {
+        "id": "394:15521",
+        "name": "State=on, enable=on, Mode=Expanded"
+      },
+      {
+        "id": "394:15568",
+        "name": "State=off, enable=on, Mode=Expanded"
+      },
+      {
+        "id": "3065:24548",
+        "name": "State=off, enable=off, Mode=Compact"
+      },
+      {
+        "id": "3065:24558",
+        "name": "State=on, enable=off, Mode=Compact"
+      },
+      {
+        "id": "3066:24584",
+        "name": "State=hover, enable=off, Mode=Expanded"
+      },
+      {
+        "id": "3066:24594",
+        "name": "State=hover, enable=off, Mode=Compact"
+      }
+    ]
+  },
+  "Tab": {
+    "id": "2:30684",
+    "variants": [
+      {
+        "id": "2:30685",
+        "name": "Active=No"
+      },
+      {
+        "id": "2:30688",
+        "name": "Active=Yes"
+      }
+    ]
+  },
+  "Sidebar": {
+    "id": "394:15593",
+    "variants": [
+      {
+        "id": "394:15594",
+        "name": "Type=side-menu"
+      },
+      {
+        "id": "394:15628",
+        "name": "Type=side-menu-collapsed"
+      }
+    ]
+  },
+  "Profile": {
+    "id": "784:34937",
+    "variants": []
+  }
+}

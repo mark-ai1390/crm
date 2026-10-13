@@ -1,6 +1,6 @@
 {
   "project": "4sales CRM — Марк Сангинов",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-13",
   "rules": {
     "single_active_feature": true,
     "passing_requires_evidence": true,
@@ -42,7 +42,7 @@
       "area": "figma",
       "title": "Дизайн-система и связный прототип Figma",
       "user_visible_behavior": "Дизайн-система и связный прототип Figma",
-      "status": "needs_verification",
+      "status": "in_progress",
       "verification": [
         "Проверить новые страницы, компоненты, токены и пять сценариев",
         "Просмотреть все состояния, проверить переходы с согласованными записями"
